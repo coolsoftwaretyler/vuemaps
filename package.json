@@ -1,6 +1,7 @@
 {
   "name": "@ogdenstudios/vuemaps",
   "version": "0.1.0",
+  "license": "MIT",
   "main": "./dist/vuemaps.common.js",
   "files": [
     "dist/*",
