@@ -11,6 +11,9 @@ npm run serve
 ```
 
 ### Compiles and minifies for production
+
+The build process targets a [library](https://cli.vuejs.org/guide/build-targets.html#library) and **does not inline Vue.js**.
+
 ```
 npm run build
 ```

@@ -1,0 +1,13 @@
+a,
+button {
+  &.arrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: black;
+    transition: all 0.25s ease-in-out;
+  }
+  &:hover {
+    color: $color_primary_brand;
+  }
+}
