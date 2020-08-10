@@ -1,5 +1,5 @@
 {
-  "name": "vuemaps",
+  "name": "@ogdenstudios/vuemaps",
   "version": "0.1.0",
   "main": "./dist/vuemaps.common.js",
   "files": [
