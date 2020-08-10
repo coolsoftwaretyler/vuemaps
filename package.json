@@ -1,15 +1,9 @@
 {
   "name": "@ogdenstudios/vuemaps",
   "description": "Vue.js library for interactive map APIs",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "main": "./dist/vuemaps.common.js",
-  "files": [
-    "dist/*",
-    "src/*",
-    "public/*",
-    "*.json",
-    "*.js"
-  ],
+  "files": ["dist/*"],
   "bugs": {
     "url": "https://github.com/ogdenstudios/vuemaps/issues",
     "email": "tyler@ogdenstudios.xyz"
