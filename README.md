@@ -1,4 +1,4 @@
-# vue-maps
+# vuemaps
 
 ## Project setup
 ```
