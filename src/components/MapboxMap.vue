@@ -31,8 +31,8 @@ export default {
     };
   },
   mounted() {
-    // You can load mapbox globally or use a prototype version of it, depending on where you plan to run this component.
-    this.mapboxgl = window.mapboxgl || this.$mapboxgl;
+    // You can load mapbox as a Vue plugin or through a global script, depending on where you plan to run this component.
+    this.mapboxgl = this.$mapboxgl || window.mapboxgl;
     this.map = new this.mapboxgl.Map({
       ...this.config.mapProperties,
       container: this.$refs.map,
