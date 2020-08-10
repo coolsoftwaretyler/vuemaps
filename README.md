@@ -1,6 +1,6 @@
 # vuemaps
 
-A Vue.js library for interactive map APIS.
+A Vue.js library for interactive map APIs.
 
 ## Mapbox 
 

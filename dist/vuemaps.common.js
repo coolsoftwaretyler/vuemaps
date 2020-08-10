@@ -419,17 +419,6 @@ module.exports = version && +version;
 
 /***/ }),
 
-/***/ "33a5":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MapboxMap_vue_vue_type_style_index_0_id_35229457_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("fa32");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MapboxMap_vue_vue_type_style_index_0_id_35229457_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MapboxMap_vue_vue_type_style_index_0_id_35229457_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MapboxMap_vue_vue_type_style_index_0_id_35229457_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
-
-/***/ }),
-
 /***/ "342f":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -607,6 +596,13 @@ $({ target: 'Array', proto: true, forced: !HAS_SPECIES_SUPPORT || !USES_TO_LENGT
   }
 });
 
+
+/***/ }),
+
+/***/ "4fbe":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -1032,6 +1028,17 @@ module.exports = Object.create || function create(O, Properties) {
   return Properties === undefined ? result : defineProperties(result, Properties);
 };
 
+
+/***/ }),
+
+/***/ "7d3a":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MapboxMap_vue_vue_type_style_index_0_id_1f17e250_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("4fbe");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MapboxMap_vue_vue_type_style_index_0_id_1f17e250_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MapboxMap_vue_vue_type_style_index_0_id_1f17e250_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MapboxMap_vue_vue_type_style_index_0_id_1f17e250_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -2325,13 +2332,6 @@ module.exports = function (key) {
 
 /***/ }),
 
-/***/ "fa32":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
 /***/ "fb15":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2376,12 +2376,12 @@ var web_dom_collections_for_each = __webpack_require__("159b");
 var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__("8bbf");
 var external_commonjs_vue_commonjs2_vue_root_Vue_default = /*#__PURE__*/__webpack_require__.n(external_commonjs_vue_commonjs2_vue_root_Vue_);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"5f3c9c9f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/MapboxMap.vue?vue&type=template&id=35229457&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"b9e02f34-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/MapboxMap.vue?vue&type=template&id=1f17e250&scoped=true&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"map",staticClass:"map",style:(("height: " + _vm.height + "vh; width: " + _vm.width + "%"))},[(_vm.config.layerToggles.enabled)?_c('LayerToggles',{attrs:{"toggles":_vm.config.layerToggles.toggles,"map":_vm.map}}):_vm._e()],1)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/MapboxMap.vue?vue&type=template&id=35229457&scoped=true&
+// CONCATENATED MODULE: ./src/components/MapboxMap.vue?vue&type=template&id=1f17e250&scoped=true&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.map.js
 var es_array_map = __webpack_require__("d81d");
@@ -2459,7 +2459,7 @@ function _objectSpread2(target) {
 
   return target;
 }
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"5f3c9c9f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/LayerToggles.vue?vue&type=template&id=f24eab62&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"b9e02f34-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/LayerToggles.vue?vue&type=template&id=f24eab62&
 var LayerTogglesvue_type_template_id_f24eab62_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"toggles"},_vm._l((_vm.toggles),function(state,index){return _c('div',{key:state.name,staticClass:"toggleItem"},[_c('label',{staticClass:"label-container"},[_vm._v(_vm._s(state.label)+" "),_c('input',{attrs:{"id":state.name,"data-toggle-color":state.toggleColor,"name":"layer","type":"checkbox","checked":""},domProps:{"value":state.label},on:{"click":function($event){return _vm.handleToggle(index, $event)}}}),_c('span',{staticClass:"checkmark"})]),_c('br')])}),0)}
 var LayerTogglesvue_type_template_id_f24eab62_staticRenderFns = []
 
@@ -2679,18 +2679,21 @@ var component = normalizeComponent(
   },
   data: function data() {
     return {
-      map: null
+      map: null,
+      mapboxgl: null
     };
   },
   mounted: function mounted() {
     var _this = this;
 
-    this.map = new window.mapboxgl.Map(_objectSpread2(_objectSpread2({}, this.config.mapProperties), {}, {
+    // You can load mapbox globally or use a prototype version of it, depending on where you plan to run this component.
+    this.mapboxgl = window.mapboxgl || this.$mapboxgl;
+    this.map = new this.mapboxgl.Map(_objectSpread2(_objectSpread2({}, this.config.mapProperties), {}, {
       container: this.$refs.map
     }));
     this.map.on("load", function () {
       if (_this.config.navigationControl.enabled) {
-        var nav = new window.mapboxgl.NavigationControl({
+        var nav = new _this.mapboxgl.NavigationControl({
           options: _this.config.navigationControl
         });
 
@@ -2701,8 +2704,8 @@ var component = normalizeComponent(
 });
 // CONCATENATED MODULE: ./src/components/MapboxMap.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_MapboxMapvue_type_script_lang_js_ = (MapboxMapvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/components/MapboxMap.vue?vue&type=style&index=0&id=35229457&lang=scss&scoped=true&
-var MapboxMapvue_type_style_index_0_id_35229457_lang_scss_scoped_true_ = __webpack_require__("33a5");
+// EXTERNAL MODULE: ./src/components/MapboxMap.vue?vue&type=style&index=0&id=1f17e250&lang=scss&scoped=true&
+var MapboxMapvue_type_style_index_0_id_1f17e250_lang_scss_scoped_true_ = __webpack_require__("7d3a");
 
 // CONCATENATED MODULE: ./src/components/MapboxMap.vue
 
@@ -2719,7 +2722,7 @@ var MapboxMap_component = normalizeComponent(
   staticRenderFns,
   false,
   null,
-  "35229457",
+  "1f17e250",
   null
   
 )
@@ -2731,10 +2734,8 @@ var MapboxMap_component = normalizeComponent(
 
 
 
-
 var VueMaps = {
-  MapboxMap: MapboxMap,
-  LayerToggles: LayerToggles
+  MapboxMap: MapboxMap
 };
 Object.keys(VueMaps).forEach(function (name) {
   external_commonjs_vue_commonjs2_vue_root_Vue_default.a.component(name, VueMaps[name]);

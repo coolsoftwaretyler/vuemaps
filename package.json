@@ -1,16 +1,7 @@
 {
   "name": "@ogdenstudios/vuemaps",
   "description": "Vue.js library for interactive map APIs",
-  "bugs": {
-    "url": "https://github.com/ogdenstudios/vuemaps/issues",
-    "email": "tyler@ogdenstudios.xyz"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ogdenstudios/vuemaps"
-  },
-  "version": "0.1.1",
-  "license": "MIT",
+  "version": "0.1.2",
   "main": "./dist/vuemaps.common.js",
   "files": [
     "dist/*",
@@ -19,6 +10,15 @@
     "*.json",
     "*.js"
   ],
+  "bugs": {
+    "url": "https://github.com/ogdenstudios/vuemaps/issues",
+    "email": "tyler@ogdenstudios.xyz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ogdenstudios/vuemaps"
+  },
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name vuemaps 'src/components/index.js'",
