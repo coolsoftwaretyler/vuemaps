@@ -1,5 +1,5 @@
 {
-  "name": "@ogdenstudios/vuemaps",
+  "name": "@maxar/vuemaps",
   "description": "Vue.js library for interactive map APIs",
   "version": "0.1.4",
   "main": "./dist/vuemaps.common.js",
