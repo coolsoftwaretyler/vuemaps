@@ -4,6 +4,8 @@ A Vue.js library for interactive map APIS.
 
 ## Mapbox 
 
+The Mapbox components require a [Mapbox access token](https://docs.mapbox.com/help/how-mapbox-works/access-tokens/). You can provide that to Mapbox in the demo app by creating a `.env.local` file in the root of the directory and setting `VUE_APP_MAPBOX_TOKEN` to your token.
+
 ## Project setup
 ```
 npm install
