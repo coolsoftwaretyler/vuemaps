@@ -1,6 +1,6 @@
 {
   "name": "@ogdenstudios/vuemaps",
-  "description": "Vue.js utilities for interactive map APIs",
+  "description": "Vue.js library for interactive map APIs",
   "bugs": {
     "url": "https://github.com/ogdenstudios/vuemaps/issues",
     "email": "tyler@ogdenstudios.xyz"

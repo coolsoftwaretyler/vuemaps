@@ -1,5 +1,9 @@
 # vuemaps
 
+A Vue.js library for interactive map APIS.
+
+## Mapbox 
+
 ## Project setup
 ```
 npm install
