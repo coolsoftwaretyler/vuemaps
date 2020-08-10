@@ -10,6 +10,9 @@ npm install
 ```
 
 ### Compiles and hot-reloads for development
+
+There's a demo application at `src/App.vue` which gives use case examples. To view it: 
+
 ```
 npm run serve
 ```

@@ -1,7 +1,8 @@
 import Vue from "vue";
+import MapboxMap from "./MapboxMap.vue";
 
 const VueMaps = {
-
+    MapboxMap,
 }
 
 Object.keys(VueMaps).forEach(name => {
