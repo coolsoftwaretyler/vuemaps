@@ -1,19 +1,13 @@
 <template>
   <div class="mapContainer">
     <div class="map" ref="map"></div>
-    <div class="header">
-      <h2 v-if="config.title">{{ config.title }}</h2>
-      <h3 v-if="config.subtitle">{{ config.subtitle }}</h3>
-    </div>
     <div class="features">
-      <!-- container -->
       <div
         v-for="(record, index) in config.chapters"
         :id="record.id"
         :key="record.id"
         :class="index == 0 ? 'active step' : 'step'"
       >
-        <!-- chapter -->
         <div class="chapter">
           <h3 v-if="record.title">{{ record.title }}</h3>
           <img v-if="record.image" :src="record.image" />
@@ -38,6 +32,14 @@ export default {
     return {
       map: null,
       mapboxgl: null,
+      layerTypes: {
+        fill: ['fill-opacity'],
+        line: ['line-opacity'],
+        circle: ['circle-opacity', 'circle-stroke-opacity'],
+        symbol: ['icon-opacity', 'text-opacity'],
+        raster: ['raster-opacity'],
+        'fill-extrusion': ['fill-extrusion-opacity'],
+      },
     };
   },
   mounted() {
@@ -112,43 +114,33 @@ export default {
 
 <style lang="scss" scoped>
 .map {
-  top: 0;
   height: 100vh;
-  width: 100vw;
   position: fixed;
+  top: 0;
+  width: 100vw;
   z-index: 0;
 }
 
-.header {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.8);
-  margin: 1vh auto;
-  width: 50vw;
-  padding: 2vh;
-  text-align: center;
-  z-index: 2;
-  position: relative;
-}
-
 .features {
-  padding-top: 5vh;
-  padding-bottom: 5vh;
-  z-index: 100;
+  padding: 80px 0;
 }
 
 .chapter {
-  color: white;
   background-color: rgba(0, 0, 0, 0.8);
-  width: 33vw;
-  margin-left: 5vw;
-  padding: 5px 25px;
-  line-height: 20px;
-  font-size: 20px;
+  box-sizing: border-box;
+  color: white;
+  margin-left: 80px;
+  max-width: 700px;
+  padding: 10px 20px;
+  width: 100%;
+  @media (max-width: 860px) {
+    margin: 0 auto;
+  }
 }
 
 .step {
-  padding-bottom: 50vh;
   opacity: 0;
+  padding-bottom: 50vh;
   transition: opacity 1s ease-in-out;
   &.active {
     opacity: 0.9;
