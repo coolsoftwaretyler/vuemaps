@@ -1,12 +1,12 @@
-import Vue from "vue";
-import MapboxMap from "./MapboxMap.vue";
+import Vue from 'vue';
+import MapboxMap from './MapboxMap.vue';
 
 const VueMaps = {
-    MapboxMap,
-}
+  MapboxMap,
+};
 
-Object.keys(VueMaps).forEach(name => {
-    Vue.component(name, VueMaps[name]);
+Object.keys(VueMaps).forEach((name) => {
+  Vue.component(name, VueMaps[name]);
 });
 
 export default VueMaps;

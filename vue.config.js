@@ -1,8 +1,8 @@
 module.exports = {
-    css: {
-      loaderOptions: {
-        sass: {
-          additionalData: `
+  css: {
+    loaderOptions: {
+      sass: {
+        additionalData: `
           @import "@/scss/_variables";
           @import "@/scss/_fonts";
           @import "@/scss/_typography";
@@ -10,8 +10,9 @@ module.exports = {
           @import "@/scss/_buttons";
           @import "@/scss/_links";
           @import "@/scss/_mapNav";
-          `
-        }
-      }
-    }
-  };
+          `,
+      },
+    },
+  },
+  runtimeCompiler: true,
+};

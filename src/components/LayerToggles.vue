@@ -10,7 +10,7 @@
           name="layer"
           type="checkbox"
           checked
-          @click="handleToggle(index, $event)"/>
+          @click="handleToggle(index, $event)" />
         <span class="checkmark"></span></label
       ><br />
     </div>
@@ -22,34 +22,34 @@ export default {
   props: {
     map: {
       type: Object,
-      default: null
+      default: null,
     },
     toggles: {
       type: Array,
-      default: null
-    }
+      default: null,
+    },
   },
   methods: {
     handleToggle(index, event) {
-      const visibility = event.target.checked
+      const visibility = event.target.checked;
       if (visibility === true && this.map !== null) {
         this.toggles[index].layers.forEach((layer) => {
-          this.map.setLayoutProperty(layer, 'visibility', 'visible')
-        })
+          this.map.setLayoutProperty(layer, 'visibility', 'visible');
+        });
       } else if (visibility === false && this.map !== null) {
         this.toggles[index].layers.forEach((layer) => {
-          this.map.setLayoutProperty(layer, 'visibility', 'none')
-        })
+          this.map.setLayoutProperty(layer, 'visibility', 'none');
+        });
       } else if (this.map === null) {
-        console.warn('The map has not finished loading yet')
+        console.warn('The map has not finished loading yet');
       } else {
         console.error(
           'The visiblity property on the payload is not a boolean value'
-        )
+        );
       }
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style lang="scss">
