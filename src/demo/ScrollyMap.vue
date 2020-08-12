@@ -143,20 +143,6 @@ export default {
           },
         ],
       },
-      layerTypes: {
-        fill: ['fill-opacity'],
-        line: ['line-opacity'],
-        circle: ['circle-opacity', 'circle-stroke-opacity'],
-        symbol: ['icon-opacity', 'text-opacity'],
-        raster: ['raster-opacity'],
-        'fill-extrusion': ['fill-extrusion-opacity'],
-      },
-      alignments: {
-        left: 'lefty',
-        center: 'centered',
-        right: 'righty',
-      },
-      story: this.$refs.story,
     };
   },
 };
