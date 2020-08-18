@@ -20,7 +20,7 @@ const routes = [
   { path: '/', component: Home },
   { path: '/slippy-map', component: SlippyMap },
   { path: '/scrolly-map', component: ScrollyMap },
-  { path: '/mapbox-compare', component: MapboxCompare }
+  { path: '/mapbox-compare', component: MapboxCompare },
 ];
 
 const router = new VueRouter({

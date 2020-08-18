@@ -4,7 +4,7 @@ import ScrollyMap from './ScrollyMap.vue';
 
 const VueMaps = {
   MapboxMap,
-  ScrollyMap
+  ScrollyMap,
 };
 
 Object.keys(VueMaps).forEach((name) => {

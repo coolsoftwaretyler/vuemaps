@@ -91,7 +91,7 @@ export default {
             chapter.onChapterExit.forEach(this.setLayerOpacity);
           }
         });
-        window.GLOBAL_MAP_VAR = this.map
+      window.GLOBAL_MAP_VAR = this.map;
     });
     window.addEventListener('resize', scroller.resize);
   },
