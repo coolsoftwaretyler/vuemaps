@@ -5628,12 +5628,12 @@ var ScrollyMap_component = normalizeComponent(
 )
 
 /* harmony default export */ var ScrollyMap = (ScrollyMap_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7839fb5c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/MapboxCompare.vue?vue&type=template&id=def6114a&
-var MapboxComparevue_type_template_id_def6114a_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"container"},[_c('div',{ref:"left",staticClass:"map"}),_c('div',{staticClass:"label--left"},[_vm._v(_vm._s(_vm.config.leftLabel))]),_c('div',{ref:"right",staticClass:"map"}),_c('div',{staticClass:"label--right"},[_vm._v(_vm._s(_vm.config.rightLabel))])])}
-var MapboxComparevue_type_template_id_def6114a_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7839fb5c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/MapboxCompare.vue?vue&type=template&id=54037c5a&
+var MapboxComparevue_type_template_id_54037c5a_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"container"},[_c('div',{ref:"left",staticClass:"map"}),_c('div',{staticClass:"label--left"},[_vm._v(_vm._s(_vm.config.leftLabel))]),_c('div',{ref:"right",staticClass:"map"}),_c('div',{staticClass:"label--right"},[_vm._v(_vm._s(_vm.config.rightLabel))])])}
+var MapboxComparevue_type_template_id_54037c5a_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/MapboxCompare.vue?vue&type=template&id=def6114a&
+// CONCATENATED MODULE: ./src/components/MapboxCompare.vue?vue&type=template&id=54037c5a&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.function.name.js
 var es_function_name = __webpack_require__("b0c0");
@@ -5676,10 +5676,6 @@ var mapbox_gl_compare_default = /*#__PURE__*/__webpack_require__.n(mapbox_gl_com
 
     // You can load mapbox as a Vue plugin or through a global script, depending on where you plan to run this component.
     this.mapboxgl = this.$mapboxgl || window.mapboxgl;
-    this.popup = new this.mapboxgl.Popup({
-      closeButton: false,
-      closeOnClick: false
-    });
     this.leftMap = new this.mapboxgl.Map(_objectSpread2(_objectSpread2({}, this.config.leftMapConfig.mapProperties), {}, {
       container: this.$refs.left,
       style: this.config.style
@@ -5718,8 +5714,8 @@ var MapboxComparevue_type_style_index_0_lang_scss_ = __webpack_require__("0004")
 
 var MapboxCompare_component = normalizeComponent(
   components_MapboxComparevue_type_script_lang_js_,
-  MapboxComparevue_type_template_id_def6114a_render,
-  MapboxComparevue_type_template_id_def6114a_staticRenderFns,
+  MapboxComparevue_type_template_id_54037c5a_render,
+  MapboxComparevue_type_template_id_54037c5a_staticRenderFns,
   false,
   null,
   null,

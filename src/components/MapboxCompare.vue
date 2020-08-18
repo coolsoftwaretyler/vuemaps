@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import MapboxCompare from 'mapbox-gl-compare';
+import MapboxGlCompare from 'mapbox-gl-compare';
 
 export default {
   props: {
@@ -28,10 +28,6 @@ export default {
   mounted() {
     // You can load mapbox as a Vue plugin or through a global script, depending on where you plan to run this component.
     this.mapboxgl = this.$mapboxgl || window.mapboxgl;
-    this.popup = new this.mapboxgl.Popup({
-      closeButton: false,
-      closeOnClick: false,
-    });
     this.leftMap = new this.mapboxgl.Map({
       ...this.config.leftMapConfig.mapProperties,
       container: this.$refs.left,
@@ -60,7 +56,7 @@ export default {
         );
       });
     });
-    this.map = new MapboxCompare(
+    this.map = new MapboxGlCompare(
       this.leftMap,
       this.rightMap,
       this.$refs.container
