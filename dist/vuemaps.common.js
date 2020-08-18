@@ -5619,12 +5619,12 @@ var ScrollyMap_component = normalizeComponent(
 )
 
 /* harmony default export */ var ScrollyMap = (ScrollyMap_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7839fb5c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/MapboxCompare.vue?vue&type=template&id=54037c5a&
-var MapboxComparevue_type_template_id_54037c5a_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"container"},[_c('div',{ref:"left",staticClass:"map"}),_c('div',{staticClass:"label--left"},[_vm._v(_vm._s(_vm.config.leftLabel))]),_c('div',{ref:"right",staticClass:"map"}),_c('div',{staticClass:"label--right"},[_vm._v(_vm._s(_vm.config.rightLabel))])])}
-var MapboxComparevue_type_template_id_54037c5a_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7839fb5c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/MapboxCompare.vue?vue&type=template&id=8d04aadc&
+var MapboxComparevue_type_template_id_8d04aadc_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"container"},[_c('div',{ref:"left",staticClass:"map"}),_c('div',{staticClass:"label--left"},[_vm._v(_vm._s(_vm.config.leftLabel))]),_c('div',{ref:"right",staticClass:"map"}),_c('div',{staticClass:"label--right"},[_vm._v(_vm._s(_vm.config.rightLabel))])])}
+var MapboxComparevue_type_template_id_8d04aadc_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/MapboxCompare.vue?vue&type=template&id=54037c5a&
+// CONCATENATED MODULE: ./src/components/MapboxCompare.vue?vue&type=template&id=8d04aadc&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.function.name.js
 var es_function_name = __webpack_require__("b0c0");
@@ -5659,6 +5659,7 @@ var mapbox_gl_compare_default = /*#__PURE__*/__webpack_require__.n(mapbox_gl_com
       leftMap: null,
       rightMap: null,
       map: null,
+      mapboxglCompare: null,
       popup: null
     };
   },
@@ -5666,7 +5667,15 @@ var mapbox_gl_compare_default = /*#__PURE__*/__webpack_require__.n(mapbox_gl_com
     var _this = this;
 
     // You can load mapbox as a Vue plugin or through a global script, depending on where you plan to run this component.
-    this.mapboxgl = this.$mapboxgl || window.mapboxgl;
+    this.mapboxgl = this.$mapboxgl || window.mapboxgl; // Mapbox Gl Compare will attach itself to the window mapboxgl instance if it exists. Otherwise, it will export a module
+    // So we need to capture that behavior as well.
+
+    if (window.mapboxgl) {
+      this.mapboxglCompare = window.mapboxgl.Compare;
+    } else {
+      this.mapboxglCompare = mapbox_gl_compare_default.a;
+    }
+
     this.leftMap = new this.mapboxgl.Map(_objectSpread2(_objectSpread2({}, this.config.leftMapConfig.mapProperties), {}, {
       container: this.$refs.left,
       style: this.config.style
@@ -5685,7 +5694,7 @@ var mapbox_gl_compare_default = /*#__PURE__*/__webpack_require__.n(mapbox_gl_com
         _this.rightMap.setLayoutProperty(layer.name, 'visibility', layer.visibility);
       });
     });
-    this.map = new mapbox_gl_compare_default.a(this.leftMap, this.rightMap, this.$refs.container);
+    this.map = new this.mapboxglCompare(this.leftMap, this.rightMap, this.$refs.container);
     window.GLOBAL_MAP_VAR = this.map;
   }
 });
@@ -5705,8 +5714,8 @@ var MapboxComparevue_type_style_index_0_lang_scss_ = __webpack_require__("0004")
 
 var MapboxCompare_component = normalizeComponent(
   components_MapboxComparevue_type_script_lang_js_,
-  MapboxComparevue_type_template_id_54037c5a_render,
-  MapboxComparevue_type_template_id_54037c5a_staticRenderFns,
+  MapboxComparevue_type_template_id_8d04aadc_render,
+  MapboxComparevue_type_template_id_8d04aadc_staticRenderFns,
   false,
   null,
   null,

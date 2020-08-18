@@ -22,12 +22,20 @@ export default {
       leftMap: null,
       rightMap: null,
       map: null,
+      mapboxglCompare: null,
       popup: null,
     };
   },
   mounted() {
     // You can load mapbox as a Vue plugin or through a global script, depending on where you plan to run this component.
     this.mapboxgl = this.$mapboxgl || window.mapboxgl;
+    // Mapbox Gl Compare will attach itself to the window mapboxgl instance if it exists. Otherwise, it will export a module
+    // So we need to capture that behavior as well.
+    if (window.mapboxgl) {
+      this.mapboxglCompare = window.mapboxgl.Compare;
+    } else {
+      this.mapboxglCompare = MapboxGlCompare;
+    }
     this.leftMap = new this.mapboxgl.Map({
       ...this.config.leftMapConfig.mapProperties,
       container: this.$refs.left,
@@ -56,7 +64,7 @@ export default {
         );
       });
     });
-    this.map = new MapboxGlCompare(
+    this.map = new this.mapboxglCompare(
       this.leftMap,
       this.rightMap,
       this.$refs.container
@@ -149,7 +157,6 @@ export default {
   font-size: 1em;
   padding: 0.25em 0.75em;
   position: relative;
-  display: inline-block;
   top: 0;
   background-color: #000;
   /* IE 8 */
