@@ -55,12 +55,9 @@ export default {
 
     this.mapboxgl = this.$mapboxgl || window.mapboxgl;
     this.map = new this.mapboxgl.Map({
+      ...this.config.chapters[0],
       container: this.$refs.map,
       style: this.config.mapProperties.style,
-      center: this.config.chapters[0].location.center,
-      zoom: this.config.chapters[0].location.zoom,
-      bearing: this.config.chapters[0].location.bearing,
-      pitch: this.config.chapters[0].location.pitch,
       scrollZoom: false,
       transformRequest,
     });

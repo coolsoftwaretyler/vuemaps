@@ -6,6 +6,7 @@ import VueRouter from 'vue-router';
 import Home from './demo/Home.vue';
 import SlippyMap from './demo/SlippyMap.vue';
 import ScrollyMap from './demo/ScrollyMap.vue';
+import MapboxCompare from './demo/MapboxCompare.vue';
 
 // Vue setup
 Vue.use(VueRouter);
@@ -19,6 +20,7 @@ const routes = [
   { path: '/', component: Home },
   { path: '/slippy-map', component: SlippyMap },
   { path: '/scrolly-map', component: ScrollyMap },
+  { path: '/mapbox-compare', component: MapboxCompare }
 ];
 
 const router = new VueRouter({
