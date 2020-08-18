@@ -1,8 +1,10 @@
 import Vue from 'vue';
 import MapboxMap from './MapboxMap.vue';
 import ScrollyMap from './ScrollyMap.vue';
+import MapboxCompare from './MapboxCompare.vue';
 
 const VueMaps = {
+  MapboxCompare,
   MapboxMap,
   ScrollyMap,
 };

@@ -96,6 +96,17 @@ return /******/ (function(modules) { // webpackBootstrap
 /************************************************************************/
 /******/ ({
 
+/***/ "0004":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MapboxCompare_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("d50c");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MapboxCompare_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MapboxCompare_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MapboxCompare_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
 /***/ "0366":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -200,6 +211,17 @@ module.exports = !DESCRIPTORS && !fails(function () {
 
 /***/ }),
 
+/***/ "10f1":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ScrollyMap_vue_vue_type_style_index_0_id_6b29ae7f_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("173d");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ScrollyMap_vue_vue_type_style_index_0_id_6b29ae7f_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ScrollyMap_vue_vue_type_style_index_0_id_6b29ae7f_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ScrollyMap_vue_vue_type_style_index_0_id_6b29ae7f_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
 /***/ "159b":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -219,6 +241,13 @@ for (var COLLECTION_NAME in DOMIterables) {
   }
 }
 
+
+/***/ }),
+
+/***/ "173d":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -594,13 +623,6 @@ module.exports = function (it) {
   return isObject(it) && ((isRegExp = it[MATCH]) !== undefined ? !!isRegExp : classof(it) == 'RegExp');
 };
 
-
-/***/ }),
-
-/***/ "4567":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -1813,6 +1835,17 @@ module.exports = function (bitmap, value) {
 
 /***/ }),
 
+/***/ "5da5":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MapboxMap_vue_vue_type_style_index_0_id_6e996054_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("c285");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MapboxMap_vue_vue_type_style_index_0_id_6e996054_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MapboxMap_vue_vue_type_style_index_0_id_6e996054_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MapboxMap_vue_vue_type_style_index_0_id_6e996054_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
 /***/ "65f0":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1946,17 +1979,6 @@ var TEMPLATE = String(String).split('String');
   return typeof this == 'function' && getInternalState(this).source || inspectSource(this);
 });
 
-
-/***/ }),
-
-/***/ "7074":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ScrollyMap_vue_vue_type_style_index_0_id_020089ee_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("4567");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ScrollyMap_vue_vue_type_style_index_0_id_020089ee_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ScrollyMap_vue_vue_type_style_index_0_id_020089ee_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ScrollyMap_vue_vue_type_style_index_0_id_020089ee_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -2916,6 +2938,35 @@ module.exports = function (METHOD_NAME, options) {
 
 /***/ }),
 
+/***/ "b0c0":
+/***/ (function(module, exports, __webpack_require__) {
+
+var DESCRIPTORS = __webpack_require__("83ab");
+var defineProperty = __webpack_require__("9bf2").f;
+
+var FunctionPrototype = Function.prototype;
+var FunctionPrototypeToString = FunctionPrototype.toString;
+var nameRE = /^\s*function ([^ (]*)/;
+var NAME = 'name';
+
+// Function instances `.name` property
+// https://tc39.github.io/ecma262/#sec-function-instances-name
+if (DESCRIPTORS && !(NAME in FunctionPrototype)) {
+  defineProperty(FunctionPrototype, NAME, {
+    configurable: true,
+    get: function () {
+      try {
+        return FunctionPrototypeToString.call(this).match(nameRE)[1];
+      } catch (error) {
+        return '';
+      }
+    }
+  });
+}
+
+
+/***/ }),
+
 /***/ "b622":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3051,6 +3102,13 @@ module.exports = function (input, PREFERRED_STRING) {
   throw TypeError("Can't convert object to primitive value");
 };
 
+
+/***/ }),
+
+/***/ "c285":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -4010,6 +4068,13 @@ module.exports = function (it, TAG, STATIC) {
 
 /***/ }),
 
+/***/ "d50c":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "d81d":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4088,13 +4153,6 @@ $({ target: 'Object', stat: true, sham: !DESCRIPTORS }, {
 
 /***/ }),
 
-/***/ "dc15":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
 /***/ "df75":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4129,6 +4187,82 @@ $({ target: 'Object', stat: true, forced: FORCED, sham: !DESCRIPTORS }, {
     return nativeGetOwnPropertyDescriptor(toIndexedObject(it), key);
   }
 });
+
+
+/***/ }),
+
+/***/ "e487":
+/***/ (function(module, exports) {
+
+function moveToMapPosition (master, clones) {
+  var center = master.getCenter();
+  var zoom = master.getZoom();
+  var bearing = master.getBearing();
+  var pitch = master.getPitch();
+
+  clones.forEach(function (clone) {
+    clone.jumpTo({
+      center: center,
+      zoom: zoom,
+      bearing: bearing,
+      pitch: pitch
+    });
+  });
+}
+
+// Sync movements of two maps.
+//
+// All interactions that result in movement end up firing
+// a "move" event. The trick here, though, is to
+// ensure that movements don't cycle from one map
+// to the other and back again, because such a cycle
+// - could cause an infinite loop
+// - prematurely halts prolonged movements like
+//   double-click zooming, box-zooming, and flying
+function syncMaps () {
+  var maps;
+  var argLen = arguments.length;
+  if (argLen === 1) {
+    maps = arguments[0];
+  } else {
+    maps = [];
+    for (var i = 0; i < argLen; i++) {
+      maps.push(arguments[i]);
+    }
+  }
+
+  // Create all the movement functions, because if they're created every time
+  // they wouldn't be the same and couldn't be removed.
+  var fns = [];
+  maps.forEach(function (map, index) {
+    fns[index] = sync.bind(null, map, maps.filter(function (o, i) { return i !== index; }));
+  });
+
+  function on () {
+    maps.forEach(function (map, index) {
+      map.on('move', fns[index]);
+    });
+  }
+
+  function off () {
+    maps.forEach(function (map, index) {
+      map.off('move', fns[index]);
+    });
+  }
+
+  // When one map moves, we turn off the movement listeners
+  // on all the maps, move it, then turn the listeners on again
+  function sync (master, clones) {
+    off();
+    moveToMapPosition(master, clones);
+    on();
+  }
+
+  on();
+  return function(){  off(); fns = []; };
+}
+
+module.exports = syncMaps;
 
 
 /***/ }),
@@ -4178,6 +4312,234 @@ module.exports = Array.isArray || function isArray(arg) {
 
 /***/ }),
 
+/***/ "e9bb":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/* global mapboxgl */
+
+var syncMove = __webpack_require__("e487");
+var EventEmitter = __webpack_require__("faa1").EventEmitter;
+
+/**
+ * @param {Object} a The first Mapbox GL Map
+ * @param {Object} b The second Mapbox GL Map
+ * @param {string|HTMLElement} container An HTML Element, or an element selector string for the compare container. It should be a wrapper around the two map Elements.
+ * @param {Object} options
+ * @param {string} [options.orientation=vertical] The orientation of the compare slider. `vertical` creates a vertical slider bar to compare one map on the left (map A) with another map on the right (map B). `horizontal` creates a horizontal slider bar to compare on mop on the top (map A) and another map on the bottom (map B).
+ * @param {boolean} [options.mousemove=false] If `true` the compare slider will move with the cursor, otherwise the slider will need to be dragged to move.
+ * @example
+ * var compare = new mapboxgl.Compare(beforeMap, afterMap, '#wrapper', {
+ *   orientation: 'vertical',
+ *   mousemove: true
+ * });
+ * @see [Swipe between maps](https://www.mapbox.com/mapbox-gl-js/example/mapbox-gl-compare/)
+ */
+function Compare(a, b, container, options) {
+  this.options = options ? options : {};
+  this._mapA = a;
+  this._mapB = b;
+  this._horizontal = this.options.orientation === 'horizontal';
+  this._onDown = this._onDown.bind(this);
+  this._onMove = this._onMove.bind(this);
+  this._onMouseUp = this._onMouseUp.bind(this);
+  this._onTouchEnd = this._onTouchEnd.bind(this);
+  this._ev = new EventEmitter();
+  this._swiper = document.createElement('div');
+  this._swiper.className = this._horizontal ? 'compare-swiper-horizontal' : 'compare-swiper-vertical';
+
+  this._controlContainer = document.createElement('div');
+  this._controlContainer.className = this._horizontal ? 'mapboxgl-compare mapboxgl-compare-horizontal' : 'mapboxgl-compare';
+  this._controlContainer.className = this._controlContainer.className;
+  this._controlContainer.appendChild(this._swiper);
+
+  if (typeof container === 'string' && document.body.querySelectorAll) {
+    // get container with a selector
+    var appendTarget = document.body.querySelectorAll(container)[0];
+    if (!appendTarget) {
+      throw new Error('Cannot find element with specified container selector.')
+    }
+    appendTarget.appendChild(this._controlContainer)
+  } else if (container instanceof Element && container.appendChild) {
+    // get container directly
+    container.appendChild(this._controlContainer)
+  } else {
+    throw new Error('Invalid container specified. Must be CSS selector or HTML element.')
+  }
+
+  this._bounds = b.getContainer().getBoundingClientRect();
+  var swiperPosition = (this._horizontal ? this._bounds.height : this._bounds.width) / 2;
+  this._setPosition(swiperPosition);
+
+  this._clearSync = syncMove(a, b);
+  this._onResize = function() {
+    this._bounds = b.getContainer().getBoundingClientRect();
+    if (this.currentPosition) this._setPosition(this.currentPosition);
+  }.bind(this);
+
+  b.on('resize', this._onResize);
+
+  if (this.options && this.options.mousemove) {
+    a.getContainer().addEventListener('mousemove', this._onMove);
+    b.getContainer().addEventListener('mousemove', this._onMove);
+  }
+
+  this._swiper.addEventListener('mousedown', this._onDown);
+  this._swiper.addEventListener('touchstart', this._onDown);
+}
+
+Compare.prototype = {
+  _setPointerEvents: function(v) {
+    this._controlContainer.style.pointerEvents = v;
+    this._swiper.style.pointerEvents = v;
+  },
+
+  _onDown: function(e) {
+    if (e.touches) {
+      document.addEventListener('touchmove', this._onMove);
+      document.addEventListener('touchend', this._onTouchEnd);
+    } else {
+      document.addEventListener('mousemove', this._onMove);
+      document.addEventListener('mouseup', this._onMouseUp);
+    }
+  },
+
+  _setPosition: function(x) {
+    x = Math.min(x, this._horizontal
+      ? this._bounds.height
+      : this._bounds.width);
+    var pos = this._horizontal
+      ? 'translate(0, ' + x + 'px)'
+      : 'translate(' + x + 'px, 0)';
+    this._controlContainer.style.transform = pos;
+    this._controlContainer.style.WebkitTransform = pos;
+    var clipA = this._horizontal
+      ? 'rect(0, 999em, ' + x + 'px, 0)'
+      : 'rect(0, ' + x + 'px, ' + this._bounds.height + 'px, 0)';
+    var clipB = this._horizontal
+      ? 'rect(' + x + 'px, 999em, ' + this._bounds.height + 'px,0)'
+      : 'rect(0, 999em, ' + this._bounds.height + 'px,' + x + 'px)';
+    
+    this._mapA.getContainer().style.clip = clipA;
+    this._mapB.getContainer().style.clip = clipB;
+    this.currentPosition = x;
+  },
+
+  _onMove: function(e) {
+    if (this.options && this.options.mousemove) {
+      this._setPointerEvents(e.touches ? 'auto' : 'none');
+    }
+
+    this._horizontal
+      ? this._setPosition(this._getY(e))
+      : this._setPosition(this._getX(e));
+  },
+
+  _onMouseUp: function() {
+    document.removeEventListener('mousemove', this._onMove);
+    document.removeEventListener('mouseup', this._onMouseUp);
+    this.fire('slideend', { currentPosition: this.currentPosition });
+  },
+
+  _onTouchEnd: function() {
+    document.removeEventListener('touchmove', this._onMove);
+    document.removeEventListener('touchend', this._onTouchEnd);
+  },
+
+  _getX: function(e) {
+    e = e.touches ? e.touches[0] : e;
+    var x = e.clientX - this._bounds.left;
+    if (x < 0) x = 0;
+    if (x > this._bounds.width) x = this._bounds.width;
+    return x;
+  },
+
+  _getY: function(e) {
+    e = e.touches ? e.touches[0] : e;
+    var y = e.clientY - this._bounds.top;
+    if (y < 0) y = 0;
+    if (y > this._bounds.height) y = this._bounds.height;
+    return y;
+  },
+
+  /**
+   * Set the position of the slider.
+   *
+   * @param {number} x Slider position in pixels from left/top.
+   */
+  setSlider: function(x) {
+    this._setPosition(x);
+  },
+
+  /**
+   * Adds a listener for events of a specified type.
+   *
+   * @param {string} type The event type to listen for; one of `slideend`.
+   * @param {Function} listener The function to be called when the event is fired.
+   * @returns {Compare} `this`
+   */
+  on: function(type, fn) {
+    this._ev.on(type, fn);
+    return this;
+  },
+
+  /**
+   * Fire an event of a specified type.
+   *
+   * @param {string} type The event type to fire; one of `slideend`.
+   * @param {Object} data Data passed to the event listener.
+   * @returns {Compare} `this`
+   */
+  fire: function(type, data) {
+    this._ev.emit(type, data);
+    return this;
+  },
+
+  /**
+   * Removes an event listener previously added with `Compare#on`.
+   *
+   * @param {string} type The event type previously used to install the listener.
+   * @param {Function} listener The function previously installed as a listener.
+   * @returns {Compare} `this`
+   */
+  off: function(type, fn) {
+    this._ev.removeListener(type, fn);
+    return this;
+  },
+
+  remove: function() {
+    this._clearSync();
+    this._mapB.off('resize', this._onResize);
+    var aContainer = this._mapA.getContainer();
+
+    if (!!aContainer) {
+      aContainer.style.clip = null;
+      aContainer.removeEventListener('mousemove', this._onMove);
+    }
+
+    var bContainer = this._mapB.getContainer();
+
+    if (!!bContainer) {
+      bContainer.style.clip = null;
+      bContainer.removeEventListener('mousemove', this._onMove);
+    }
+
+    this._swiper.removeEventListener('mousedown', this._onDown);
+    this._swiper.removeEventListener('touchstart', this._onDown);
+    this._controlContainer.remove();
+  }
+};
+
+if (window.mapboxgl) {
+  mapboxgl.Compare = Compare;
+} else if (true) {
+  module.exports = Compare;
+}
+
+
+/***/ }),
+
 /***/ "eb15":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -4186,17 +4548,6 @@ module.exports = Array.isArray || function isArray(arg) {
 /* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_LayerToggles_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_LayerToggles_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
 /* unused harmony reexport * */
  /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_LayerToggles_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
-
-/***/ }),
-
-/***/ "f15e":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MapboxMap_vue_vue_type_style_index_0_id_1677d1d9_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("dc15");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MapboxMap_vue_vue_type_style_index_0_id_1677d1d9_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MapboxMap_vue_vue_type_style_index_0_id_1677d1d9_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MapboxMap_vue_vue_type_style_index_0_id_1677d1d9_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -4211,6 +4562,490 @@ var keys = shared('keys');
 module.exports = function (key) {
   return keys[key] || (keys[key] = uid(key));
 };
+
+
+/***/ }),
+
+/***/ "faa1":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+// Copyright Joyent, Inc. and other Node contributors.
+//
+// Permission is hereby granted, free of charge, to any person obtaining a
+// copy of this software and associated documentation files (the
+// "Software"), to deal in the Software without restriction, including
+// without limitation the rights to use, copy, modify, merge, publish,
+// distribute, sublicense, and/or sell copies of the Software, and to permit
+// persons to whom the Software is furnished to do so, subject to the
+// following conditions:
+//
+// The above copyright notice and this permission notice shall be included
+// in all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+// USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+var R = typeof Reflect === 'object' ? Reflect : null
+var ReflectApply = R && typeof R.apply === 'function'
+  ? R.apply
+  : function ReflectApply(target, receiver, args) {
+    return Function.prototype.apply.call(target, receiver, args);
+  }
+
+var ReflectOwnKeys
+if (R && typeof R.ownKeys === 'function') {
+  ReflectOwnKeys = R.ownKeys
+} else if (Object.getOwnPropertySymbols) {
+  ReflectOwnKeys = function ReflectOwnKeys(target) {
+    return Object.getOwnPropertyNames(target)
+      .concat(Object.getOwnPropertySymbols(target));
+  };
+} else {
+  ReflectOwnKeys = function ReflectOwnKeys(target) {
+    return Object.getOwnPropertyNames(target);
+  };
+}
+
+function ProcessEmitWarning(warning) {
+  if (console && console.warn) console.warn(warning);
+}
+
+var NumberIsNaN = Number.isNaN || function NumberIsNaN(value) {
+  return value !== value;
+}
+
+function EventEmitter() {
+  EventEmitter.init.call(this);
+}
+module.exports = EventEmitter;
+module.exports.once = once;
+
+// Backwards-compat with node 0.10.x
+EventEmitter.EventEmitter = EventEmitter;
+
+EventEmitter.prototype._events = undefined;
+EventEmitter.prototype._eventsCount = 0;
+EventEmitter.prototype._maxListeners = undefined;
+
+// By default EventEmitters will print a warning if more than 10 listeners are
+// added to it. This is a useful default which helps finding memory leaks.
+var defaultMaxListeners = 10;
+
+function checkListener(listener) {
+  if (typeof listener !== 'function') {
+    throw new TypeError('The "listener" argument must be of type Function. Received type ' + typeof listener);
+  }
+}
+
+Object.defineProperty(EventEmitter, 'defaultMaxListeners', {
+  enumerable: true,
+  get: function() {
+    return defaultMaxListeners;
+  },
+  set: function(arg) {
+    if (typeof arg !== 'number' || arg < 0 || NumberIsNaN(arg)) {
+      throw new RangeError('The value of "defaultMaxListeners" is out of range. It must be a non-negative number. Received ' + arg + '.');
+    }
+    defaultMaxListeners = arg;
+  }
+});
+
+EventEmitter.init = function() {
+
+  if (this._events === undefined ||
+      this._events === Object.getPrototypeOf(this)._events) {
+    this._events = Object.create(null);
+    this._eventsCount = 0;
+  }
+
+  this._maxListeners = this._maxListeners || undefined;
+};
+
+// Obviously not all Emitters should be limited to 10. This function allows
+// that to be increased. Set to zero for unlimited.
+EventEmitter.prototype.setMaxListeners = function setMaxListeners(n) {
+  if (typeof n !== 'number' || n < 0 || NumberIsNaN(n)) {
+    throw new RangeError('The value of "n" is out of range. It must be a non-negative number. Received ' + n + '.');
+  }
+  this._maxListeners = n;
+  return this;
+};
+
+function _getMaxListeners(that) {
+  if (that._maxListeners === undefined)
+    return EventEmitter.defaultMaxListeners;
+  return that._maxListeners;
+}
+
+EventEmitter.prototype.getMaxListeners = function getMaxListeners() {
+  return _getMaxListeners(this);
+};
+
+EventEmitter.prototype.emit = function emit(type) {
+  var args = [];
+  for (var i = 1; i < arguments.length; i++) args.push(arguments[i]);
+  var doError = (type === 'error');
+
+  var events = this._events;
+  if (events !== undefined)
+    doError = (doError && events.error === undefined);
+  else if (!doError)
+    return false;
+
+  // If there is no 'error' event listener then throw.
+  if (doError) {
+    var er;
+    if (args.length > 0)
+      er = args[0];
+    if (er instanceof Error) {
+      // Note: The comments on the `throw` lines are intentional, they show
+      // up in Node's output if this results in an unhandled exception.
+      throw er; // Unhandled 'error' event
+    }
+    // At least give some kind of context to the user
+    var err = new Error('Unhandled error.' + (er ? ' (' + er.message + ')' : ''));
+    err.context = er;
+    throw err; // Unhandled 'error' event
+  }
+
+  var handler = events[type];
+
+  if (handler === undefined)
+    return false;
+
+  if (typeof handler === 'function') {
+    ReflectApply(handler, this, args);
+  } else {
+    var len = handler.length;
+    var listeners = arrayClone(handler, len);
+    for (var i = 0; i < len; ++i)
+      ReflectApply(listeners[i], this, args);
+  }
+
+  return true;
+};
+
+function _addListener(target, type, listener, prepend) {
+  var m;
+  var events;
+  var existing;
+
+  checkListener(listener);
+
+  events = target._events;
+  if (events === undefined) {
+    events = target._events = Object.create(null);
+    target._eventsCount = 0;
+  } else {
+    // To avoid recursion in the case that type === "newListener"! Before
+    // adding it to the listeners, first emit "newListener".
+    if (events.newListener !== undefined) {
+      target.emit('newListener', type,
+                  listener.listener ? listener.listener : listener);
+
+      // Re-assign `events` because a newListener handler could have caused the
+      // this._events to be assigned to a new object
+      events = target._events;
+    }
+    existing = events[type];
+  }
+
+  if (existing === undefined) {
+    // Optimize the case of one listener. Don't need the extra array object.
+    existing = events[type] = listener;
+    ++target._eventsCount;
+  } else {
+    if (typeof existing === 'function') {
+      // Adding the second element, need to change to array.
+      existing = events[type] =
+        prepend ? [listener, existing] : [existing, listener];
+      // If we've already got an array, just append.
+    } else if (prepend) {
+      existing.unshift(listener);
+    } else {
+      existing.push(listener);
+    }
+
+    // Check for listener leak
+    m = _getMaxListeners(target);
+    if (m > 0 && existing.length > m && !existing.warned) {
+      existing.warned = true;
+      // No error code for this since it is a Warning
+      // eslint-disable-next-line no-restricted-syntax
+      var w = new Error('Possible EventEmitter memory leak detected. ' +
+                          existing.length + ' ' + String(type) + ' listeners ' +
+                          'added. Use emitter.setMaxListeners() to ' +
+                          'increase limit');
+      w.name = 'MaxListenersExceededWarning';
+      w.emitter = target;
+      w.type = type;
+      w.count = existing.length;
+      ProcessEmitWarning(w);
+    }
+  }
+
+  return target;
+}
+
+EventEmitter.prototype.addListener = function addListener(type, listener) {
+  return _addListener(this, type, listener, false);
+};
+
+EventEmitter.prototype.on = EventEmitter.prototype.addListener;
+
+EventEmitter.prototype.prependListener =
+    function prependListener(type, listener) {
+      return _addListener(this, type, listener, true);
+    };
+
+function onceWrapper() {
+  if (!this.fired) {
+    this.target.removeListener(this.type, this.wrapFn);
+    this.fired = true;
+    if (arguments.length === 0)
+      return this.listener.call(this.target);
+    return this.listener.apply(this.target, arguments);
+  }
+}
+
+function _onceWrap(target, type, listener) {
+  var state = { fired: false, wrapFn: undefined, target: target, type: type, listener: listener };
+  var wrapped = onceWrapper.bind(state);
+  wrapped.listener = listener;
+  state.wrapFn = wrapped;
+  return wrapped;
+}
+
+EventEmitter.prototype.once = function once(type, listener) {
+  checkListener(listener);
+  this.on(type, _onceWrap(this, type, listener));
+  return this;
+};
+
+EventEmitter.prototype.prependOnceListener =
+    function prependOnceListener(type, listener) {
+      checkListener(listener);
+      this.prependListener(type, _onceWrap(this, type, listener));
+      return this;
+    };
+
+// Emits a 'removeListener' event if and only if the listener was removed.
+EventEmitter.prototype.removeListener =
+    function removeListener(type, listener) {
+      var list, events, position, i, originalListener;
+
+      checkListener(listener);
+
+      events = this._events;
+      if (events === undefined)
+        return this;
+
+      list = events[type];
+      if (list === undefined)
+        return this;
+
+      if (list === listener || list.listener === listener) {
+        if (--this._eventsCount === 0)
+          this._events = Object.create(null);
+        else {
+          delete events[type];
+          if (events.removeListener)
+            this.emit('removeListener', type, list.listener || listener);
+        }
+      } else if (typeof list !== 'function') {
+        position = -1;
+
+        for (i = list.length - 1; i >= 0; i--) {
+          if (list[i] === listener || list[i].listener === listener) {
+            originalListener = list[i].listener;
+            position = i;
+            break;
+          }
+        }
+
+        if (position < 0)
+          return this;
+
+        if (position === 0)
+          list.shift();
+        else {
+          spliceOne(list, position);
+        }
+
+        if (list.length === 1)
+          events[type] = list[0];
+
+        if (events.removeListener !== undefined)
+          this.emit('removeListener', type, originalListener || listener);
+      }
+
+      return this;
+    };
+
+EventEmitter.prototype.off = EventEmitter.prototype.removeListener;
+
+EventEmitter.prototype.removeAllListeners =
+    function removeAllListeners(type) {
+      var listeners, events, i;
+
+      events = this._events;
+      if (events === undefined)
+        return this;
+
+      // not listening for removeListener, no need to emit
+      if (events.removeListener === undefined) {
+        if (arguments.length === 0) {
+          this._events = Object.create(null);
+          this._eventsCount = 0;
+        } else if (events[type] !== undefined) {
+          if (--this._eventsCount === 0)
+            this._events = Object.create(null);
+          else
+            delete events[type];
+        }
+        return this;
+      }
+
+      // emit removeListener for all listeners on all events
+      if (arguments.length === 0) {
+        var keys = Object.keys(events);
+        var key;
+        for (i = 0; i < keys.length; ++i) {
+          key = keys[i];
+          if (key === 'removeListener') continue;
+          this.removeAllListeners(key);
+        }
+        this.removeAllListeners('removeListener');
+        this._events = Object.create(null);
+        this._eventsCount = 0;
+        return this;
+      }
+
+      listeners = events[type];
+
+      if (typeof listeners === 'function') {
+        this.removeListener(type, listeners);
+      } else if (listeners !== undefined) {
+        // LIFO order
+        for (i = listeners.length - 1; i >= 0; i--) {
+          this.removeListener(type, listeners[i]);
+        }
+      }
+
+      return this;
+    };
+
+function _listeners(target, type, unwrap) {
+  var events = target._events;
+
+  if (events === undefined)
+    return [];
+
+  var evlistener = events[type];
+  if (evlistener === undefined)
+    return [];
+
+  if (typeof evlistener === 'function')
+    return unwrap ? [evlistener.listener || evlistener] : [evlistener];
+
+  return unwrap ?
+    unwrapListeners(evlistener) : arrayClone(evlistener, evlistener.length);
+}
+
+EventEmitter.prototype.listeners = function listeners(type) {
+  return _listeners(this, type, true);
+};
+
+EventEmitter.prototype.rawListeners = function rawListeners(type) {
+  return _listeners(this, type, false);
+};
+
+EventEmitter.listenerCount = function(emitter, type) {
+  if (typeof emitter.listenerCount === 'function') {
+    return emitter.listenerCount(type);
+  } else {
+    return listenerCount.call(emitter, type);
+  }
+};
+
+EventEmitter.prototype.listenerCount = listenerCount;
+function listenerCount(type) {
+  var events = this._events;
+
+  if (events !== undefined) {
+    var evlistener = events[type];
+
+    if (typeof evlistener === 'function') {
+      return 1;
+    } else if (evlistener !== undefined) {
+      return evlistener.length;
+    }
+  }
+
+  return 0;
+}
+
+EventEmitter.prototype.eventNames = function eventNames() {
+  return this._eventsCount > 0 ? ReflectOwnKeys(this._events) : [];
+};
+
+function arrayClone(arr, n) {
+  var copy = new Array(n);
+  for (var i = 0; i < n; ++i)
+    copy[i] = arr[i];
+  return copy;
+}
+
+function spliceOne(list, index) {
+  for (; index + 1 < list.length; index++)
+    list[index] = list[index + 1];
+  list.pop();
+}
+
+function unwrapListeners(arr) {
+  var ret = new Array(arr.length);
+  for (var i = 0; i < ret.length; ++i) {
+    ret[i] = arr[i].listener || arr[i];
+  }
+  return ret;
+}
+
+function once(emitter, name) {
+  return new Promise(function (resolve, reject) {
+    function eventListener() {
+      if (errorListener !== undefined) {
+        emitter.removeListener('error', errorListener);
+      }
+      resolve([].slice.call(arguments));
+    };
+    var errorListener;
+
+    // Adding an error listener is not optional because
+    // if an error is thrown on an event emitter we cannot
+    // guarantee that the actual event we are waiting will
+    // be fired. The result could be a silent way to create
+    // memory or file descriptor leaks, which is something
+    // we should avoid.
+    if (name !== 'error') {
+      errorListener = function errorListener(err) {
+        emitter.removeListener(name, eventListener);
+        reject(err);
+      };
+
+      emitter.once('error', errorListener);
+    }
+
+    emitter.once(name, eventListener);
+  });
+}
 
 
 /***/ }),
@@ -4259,12 +5094,12 @@ var web_dom_collections_for_each = __webpack_require__("159b");
 var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__("8bbf");
 var external_commonjs_vue_commonjs2_vue_root_Vue_default = /*#__PURE__*/__webpack_require__.n(external_commonjs_vue_commonjs2_vue_root_Vue_);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"79861ad5-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/MapboxMap.vue?vue&type=template&id=1677d1d9&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7839fb5c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/MapboxMap.vue?vue&type=template&id=6e996054&scoped=true&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"map",staticClass:"map",style:(("height: " + _vm.height + "vh; width: " + _vm.width + "%"))},[(_vm.config.layerToggles.enabled)?_c('LayerToggles',{attrs:{"toggles":_vm.config.layerToggles.toggles,"map":_vm.map}}):_vm._e()],1)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/MapboxMap.vue?vue&type=template&id=1677d1d9&scoped=true&
+// CONCATENATED MODULE: ./src/components/MapboxMap.vue?vue&type=template&id=6e996054&scoped=true&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.map.js
 var es_array_map = __webpack_require__("d81d");
@@ -4342,7 +5177,7 @@ function _objectSpread2(target) {
 
   return target;
 }
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"79861ad5-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/LayerToggles.vue?vue&type=template&id=5848a7e1&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7839fb5c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/LayerToggles.vue?vue&type=template&id=5848a7e1&
 var LayerTogglesvue_type_template_id_5848a7e1_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"toggles"},_vm._l((_vm.toggles),function(state,index){return _c('div',{key:state.name,staticClass:"toggleItem"},[_c('label',{staticClass:"label-container"},[_vm._v(_vm._s(state.label)+" "),_c('input',{attrs:{"id":state.name,"data-toggle-color":state.toggleColor,"name":"layer","type":"checkbox","checked":""},domProps:{"value":state.label},on:{"click":function($event){return _vm.handleToggle(index, $event)}}}),_c('span',{staticClass:"checkmark"})]),_c('br')])}),0)}
 var LayerTogglesvue_type_template_id_5848a7e1_staticRenderFns = []
 
@@ -4593,8 +5428,8 @@ var component = normalizeComponent(
 });
 // CONCATENATED MODULE: ./src/components/MapboxMap.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_MapboxMapvue_type_script_lang_js_ = (MapboxMapvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/components/MapboxMap.vue?vue&type=style&index=0&id=1677d1d9&lang=scss&scoped=true&
-var MapboxMapvue_type_style_index_0_id_1677d1d9_lang_scss_scoped_true_ = __webpack_require__("f15e");
+// EXTERNAL MODULE: ./src/components/MapboxMap.vue?vue&type=style&index=0&id=6e996054&lang=scss&scoped=true&
+var MapboxMapvue_type_style_index_0_id_6e996054_lang_scss_scoped_true_ = __webpack_require__("5da5");
 
 // CONCATENATED MODULE: ./src/components/MapboxMap.vue
 
@@ -4611,18 +5446,18 @@ var MapboxMap_component = normalizeComponent(
   staticRenderFns,
   false,
   null,
-  "1677d1d9",
+  "6e996054",
   null
   
 )
 
 /* harmony default export */ var MapboxMap = (MapboxMap_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"79861ad5-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/ScrollyMap.vue?vue&type=template&id=020089ee&scoped=true&
-var ScrollyMapvue_type_template_id_020089ee_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"mapContainer"},[_c('div',{ref:"map",staticClass:"map"}),_c('div',{staticClass:"features"},_vm._l((_vm.config.chapters),function(record,index){return _c('div',{key:record.id,class:index == 0 ? 'active step' : 'step',attrs:{"id":record.id}},[_c('div',{staticClass:"chapter"},[(record.title)?_c('h3',[_vm._v(_vm._s(record.title))]):_vm._e(),(record.image)?_c('img',{attrs:{"src":record.image}}):_vm._e(),(record.description)?_c('p',[_vm._v(_vm._s(record.description))]):_vm._e()])])}),0)])}
-var ScrollyMapvue_type_template_id_020089ee_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7839fb5c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/ScrollyMap.vue?vue&type=template&id=6b29ae7f&scoped=true&
+var ScrollyMapvue_type_template_id_6b29ae7f_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"mapContainer"},[_c('div',{ref:"map",staticClass:"map"}),_c('div',{staticClass:"features"},_vm._l((_vm.config.chapters),function(record,index){return _c('div',{key:record.id,class:index == 0 ? 'active step' : 'step',attrs:{"id":record.id}},[_c('div',{staticClass:"chapter"},[(record.title)?_c('h3',[_vm._v(_vm._s(record.title))]):_vm._e(),(record.image)?_c('img',{attrs:{"src":record.image}}):_vm._e(),(record.description)?_c('p',[_vm._v(_vm._s(record.description))]):_vm._e()])])}),0)])}
+var ScrollyMapvue_type_template_id_6b29ae7f_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/ScrollyMap.vue?vue&type=template&id=020089ee&scoped=true&
+// CONCATENATED MODULE: ./src/components/ScrollyMap.vue?vue&type=template&id=6b29ae7f&scoped=true&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.find.js
 var es_array_find = __webpack_require__("7db0");
@@ -4641,6 +5476,7 @@ var scrollama = __webpack_require__("d11d");
 var scrollama_default = /*#__PURE__*/__webpack_require__.n(scrollama);
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/ScrollyMap.vue?vue&type=script&lang=js&
+
 
 
 
@@ -4702,16 +5538,12 @@ var scrollama_default = /*#__PURE__*/__webpack_require__.n(scrollama);
     };
 
     this.mapboxgl = this.$mapboxgl || window.mapboxgl;
-    this.map = new this.mapboxgl.Map({
+    this.map = new this.mapboxgl.Map(_objectSpread2(_objectSpread2({}, this.config.chapters[0]), {}, {
       container: this.$refs.map,
       style: this.config.mapProperties.style,
-      center: this.config.chapters[0].location.center,
-      zoom: this.config.chapters[0].location.zoom,
-      bearing: this.config.chapters[0].location.bearing,
-      pitch: this.config.chapters[0].location.pitch,
       scrollZoom: false,
       transformRequest: transformRequest
-    });
+    }));
     var marker = new this.mapboxgl.Marker();
 
     if (this.config.showMarkers) {
@@ -4772,8 +5604,8 @@ var scrollama_default = /*#__PURE__*/__webpack_require__.n(scrollama);
 });
 // CONCATENATED MODULE: ./src/components/ScrollyMap.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_ScrollyMapvue_type_script_lang_js_ = (ScrollyMapvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/components/ScrollyMap.vue?vue&type=style&index=0&id=020089ee&lang=scss&scoped=true&
-var ScrollyMapvue_type_style_index_0_id_020089ee_lang_scss_scoped_true_ = __webpack_require__("7074");
+// EXTERNAL MODULE: ./src/components/ScrollyMap.vue?vue&type=style&index=0&id=6b29ae7f&lang=scss&scoped=true&
+var ScrollyMapvue_type_style_index_0_id_6b29ae7f_lang_scss_scoped_true_ = __webpack_require__("10f1");
 
 // CONCATENATED MODULE: ./src/components/ScrollyMap.vue
 
@@ -4786,16 +5618,116 @@ var ScrollyMapvue_type_style_index_0_id_020089ee_lang_scss_scoped_true_ = __webp
 
 var ScrollyMap_component = normalizeComponent(
   components_ScrollyMapvue_type_script_lang_js_,
-  ScrollyMapvue_type_template_id_020089ee_scoped_true_render,
-  ScrollyMapvue_type_template_id_020089ee_scoped_true_staticRenderFns,
+  ScrollyMapvue_type_template_id_6b29ae7f_scoped_true_render,
+  ScrollyMapvue_type_template_id_6b29ae7f_scoped_true_staticRenderFns,
   false,
   null,
-  "020089ee",
+  "6b29ae7f",
   null
   
 )
 
 /* harmony default export */ var ScrollyMap = (ScrollyMap_component.exports);
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7839fb5c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/MapboxCompare.vue?vue&type=template&id=def6114a&
+var MapboxComparevue_type_template_id_def6114a_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"container"},[_c('div',{ref:"left",staticClass:"map"}),_c('div',{staticClass:"label--left"},[_vm._v(_vm._s(_vm.config.leftLabel))]),_c('div',{ref:"right",staticClass:"map"}),_c('div',{staticClass:"label--right"},[_vm._v(_vm._s(_vm.config.rightLabel))])])}
+var MapboxComparevue_type_template_id_def6114a_staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/MapboxCompare.vue?vue&type=template&id=def6114a&
+
+// EXTERNAL MODULE: ./node_modules/core-js/modules/es.function.name.js
+var es_function_name = __webpack_require__("b0c0");
+
+// EXTERNAL MODULE: ./node_modules/mapbox-gl-compare/index.js
+var mapbox_gl_compare = __webpack_require__("e9bb");
+var mapbox_gl_compare_default = /*#__PURE__*/__webpack_require__.n(mapbox_gl_compare);
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/MapboxCompare.vue?vue&type=script&lang=js&
+
+
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ var MapboxComparevue_type_script_lang_js_ = ({
+  props: {
+    config: {
+      type: Object,
+      default: null
+    }
+  },
+  data: function data() {
+    return {
+      leftMap: null,
+      rightMap: null,
+      map: null,
+      popup: null
+    };
+  },
+  mounted: function mounted() {
+    var _this = this;
+
+    // You can load mapbox as a Vue plugin or through a global script, depending on where you plan to run this component.
+    this.mapboxgl = this.$mapboxgl || window.mapboxgl;
+    this.popup = new this.mapboxgl.Popup({
+      closeButton: false,
+      closeOnClick: false
+    });
+    this.leftMap = new this.mapboxgl.Map(_objectSpread2(_objectSpread2({}, this.config.leftMapConfig.mapProperties), {}, {
+      container: this.$refs.left,
+      style: this.config.style
+    }));
+    this.rightMap = new this.mapboxgl.Map(_objectSpread2(_objectSpread2({}, this.config.rightMapConfig.mapProperties), {}, {
+      container: this.$refs.right,
+      style: this.config.style
+    }));
+    this.leftMap.on('load', function () {
+      _this.config.leftMapConfig.layers.map(function (layer) {
+        _this.leftMap.setLayoutProperty(layer.name, 'visibility', layer.visibility);
+      });
+    });
+    this.rightMap.on('load', function () {
+      _this.config.rightMapConfig.layers.map(function (layer) {
+        _this.rightMap.setLayoutProperty(layer.name, 'visibility', layer.visibility);
+      });
+    });
+    this.map = new mapbox_gl_compare_default.a(this.leftMap, this.rightMap, this.$refs.container);
+    window.GLOBAL_MAP_VAR = this.map;
+  }
+});
+// CONCATENATED MODULE: ./src/components/MapboxCompare.vue?vue&type=script&lang=js&
+ /* harmony default export */ var components_MapboxComparevue_type_script_lang_js_ = (MapboxComparevue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./src/components/MapboxCompare.vue?vue&type=style&index=0&lang=scss&
+var MapboxComparevue_type_style_index_0_lang_scss_ = __webpack_require__("0004");
+
+// CONCATENATED MODULE: ./src/components/MapboxCompare.vue
+
+
+
+
+
+
+/* normalize component */
+
+var MapboxCompare_component = normalizeComponent(
+  components_MapboxComparevue_type_script_lang_js_,
+  MapboxComparevue_type_template_id_def6114a_render,
+  MapboxComparevue_type_template_id_def6114a_staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var MapboxCompare = (MapboxCompare_component.exports);
 // CONCATENATED MODULE: ./src/components/index.js
 
 
@@ -4803,7 +5735,9 @@ var ScrollyMap_component = normalizeComponent(
 
 
 
+
 var VueMaps = {
+  MapboxCompare: MapboxCompare,
   MapboxMap: MapboxMap,
   ScrollyMap: ScrollyMap
 };
