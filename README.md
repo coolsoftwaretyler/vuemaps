@@ -10,6 +10,10 @@ If that's not available to you, you can [include Mapbox GL JS from the CDN](http
 
 For Mapbox GL JS to work, you need a [Mapbox access token](https://docs.mapbox.com/help/how-mapbox-works/access-tokens/). You can provide that in the demo app by creating a `.env.local` file in the root of the directory and setting `VUE_APP_MAPBOX_TOKEN` to your token.
 
+### Global map variables 
+
+For some projects, we may want to allow users to access the `map` object from Mapbox, so `MapboxMap` and `ScrollyMap` both set `window.GLOBAL_MAP_VAR` on map load. TODO: make this opt in as a toggle in the component.
+
 ## Project setup
 
 ```
