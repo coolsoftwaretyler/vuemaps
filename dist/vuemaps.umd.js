@@ -5628,12 +5628,12 @@ var ScrollyMap_component = normalizeComponent(
 )
 
 /* harmony default export */ var ScrollyMap = (ScrollyMap_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7839fb5c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/MapboxCompare.vue?vue&type=template&id=8d04aadc&
-var MapboxComparevue_type_template_id_8d04aadc_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"container"},[_c('div',{ref:"left",staticClass:"map"}),_c('div',{staticClass:"label--left"},[_vm._v(_vm._s(_vm.config.leftLabel))]),_c('div',{ref:"right",staticClass:"map"}),_c('div',{staticClass:"label--right"},[_vm._v(_vm._s(_vm.config.rightLabel))])])}
-var MapboxComparevue_type_template_id_8d04aadc_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7839fb5c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/MapboxCompare.vue?vue&type=template&id=fc879ffe&
+var MapboxComparevue_type_template_id_fc879ffe_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"container"},[_c('div',{ref:"left",staticClass:"map"}),(_vm.config.leftLabel)?_c('div',{staticClass:"label--left"},[_vm._v(" "+_vm._s(_vm.config.leftLabel)+" ")]):_vm._e(),_c('div',{ref:"right",staticClass:"map"}),(_vm.config.rightLabel)?_c('div',{staticClass:"label--right"},[_vm._v(" "+_vm._s(_vm.config.rightLabel)+" ")]):_vm._e()])}
+var MapboxComparevue_type_template_id_fc879ffe_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/MapboxCompare.vue?vue&type=template&id=8d04aadc&
+// CONCATENATED MODULE: ./src/components/MapboxCompare.vue?vue&type=template&id=fc879ffe&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.function.name.js
 var es_function_name = __webpack_require__("b0c0");
@@ -5646,6 +5646,10 @@ var mapbox_gl_compare_default = /*#__PURE__*/__webpack_require__.n(mapbox_gl_com
 
 
 
+//
+//
+//
+//
 //
 //
 //
@@ -5723,8 +5727,8 @@ var MapboxComparevue_type_style_index_0_lang_scss_ = __webpack_require__("0004")
 
 var MapboxCompare_component = normalizeComponent(
   components_MapboxComparevue_type_script_lang_js_,
-  MapboxComparevue_type_template_id_8d04aadc_render,
-  MapboxComparevue_type_template_id_8d04aadc_staticRenderFns,
+  MapboxComparevue_type_template_id_fc879ffe_render,
+  MapboxComparevue_type_template_id_fc879ffe_staticRenderFns,
   false,
   null,
   null,

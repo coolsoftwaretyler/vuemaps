@@ -1,9 +1,13 @@
 <template>
   <div ref="container">
     <div ref="left" class="map"></div>
-    <div class="label--left">{{ config.leftLabel }}</div>
+    <div v-if="config.leftLabel" class="label--left">
+      {{ config.leftLabel }}
+    </div>
     <div ref="right" class="map"></div>
-    <div class="label--right">{{ config.rightLabel }}</div>
+    <div v-if="config.rightLabel" class="label--right">
+      {{ config.rightLabel }}
+    </div>
   </div>
 </template>
 
