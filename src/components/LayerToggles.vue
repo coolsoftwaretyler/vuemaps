@@ -6,7 +6,6 @@
         <input
           :id="state.name"
           :value="state.label"
-          :data-toggle-color="state.toggleColor"
           name="layer"
           type="checkbox"
           checked
@@ -118,34 +117,6 @@ export default {
   .label-container input:checked ~ .checkmark {
     background-color: #0e9797;
   }
-  .label-container input:checked[data-toggle-color='#4E103B'] ~ .checkmark {
-    background-color: #4e103b;
-  }
-  .label-container input:checked[data-toggle-color='#074B4B'] ~ .checkmark {
-    background-color: #074b4b;
-  }
-  .label-container input:checked[data-toggle-color='#cfd8fe'] ~ .checkmark {
-    background-color: #cfd8fe;
-  }
-  .label-container input:checked[data-toggle-color='#4164fb'] ~ .checkmark {
-    background-color: #4164fb;
-  }
-  .label-container input:checked[data-toggle-color='#1b2b66'] ~ .checkmark {
-    background-color: #1b2b66;
-  }
-  .label-container input:checked[data-toggle-color='#0e9797'] ~ .checkmark {
-    background-color: #0e9797;
-  }
-  .label-container input:checked[data-toggle-color='#68164f'] ~ .checkmark {
-    background-color: #68164f;
-  }
-  .label-container input:checked[data-toggle-color='#f04923'] ~ .checkmark {
-    background-color: #f04923;
-  }
-  .label-container input:checked[data-toggle-color='#6b6965'] ~ .checkmark {
-    background-color: #6b6965;
-  }
-
   .label-container input:checked ~ .checkmark:after {
     display: block;
   }
