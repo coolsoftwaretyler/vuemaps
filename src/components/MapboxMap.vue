@@ -48,7 +48,8 @@ export default {
         });
         this.map.addControl(nav, this.config.navigationControl.position);
       }
-      window.GLOBAL_MAP_VAR = this.map;
+      const event = new CustomEvent('map-ready', { detail: this.map });
+      document.dispatchEvent(event);
     });
   },
 };

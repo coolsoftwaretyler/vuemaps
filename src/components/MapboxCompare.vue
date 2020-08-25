@@ -73,7 +73,8 @@ export default {
       this.rightMap,
       this.$refs.container
     );
-    window.GLOBAL_MAP_VAR = this.map;
+    const event = new CustomEvent('map-ready', { detail: this.map });
+    document.dispatchEvent(event);
   },
 };
 </script>
