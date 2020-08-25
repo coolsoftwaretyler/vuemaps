@@ -102,7 +102,7 @@ export default {
       left: 0;
       height: 24px;
       width: 24px;
-      background-color: transparent;
+      background-color: #6b6965;
       border: 2px solid white;
       &:after {
         content: '';
@@ -112,7 +112,7 @@ export default {
     }
   }
   .label-container:hover input ~ .checkmark {
-    background-color: transparent;
+    background-color: #6b6965;
   }
   .label-container input:checked ~ .checkmark {
     background-color: #0e9797;
