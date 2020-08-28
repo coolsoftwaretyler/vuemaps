@@ -48,8 +48,11 @@ export default {
         });
         this.map.addControl(nav, this.config.navigationControl.position);
       }
+      // Emit a JS custom event for non-vue consumers
       const event = new CustomEvent('map-ready', { detail: this.map });
       document.dispatchEvent(event);
+      // Emit a Vue.js custom event
+      this.$emit('map-ready', this.map);
     });
   },
 };
