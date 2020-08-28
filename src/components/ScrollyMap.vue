@@ -55,7 +55,7 @@ export default {
 
     this.mapboxgl = this.$mapboxgl || window.mapboxgl;
     this.map = new this.mapboxgl.Map({
-      ...this.config.chapters[0],
+      ...this.config.chapters[0].location,
       container: this.$refs.map,
       style: this.config.mapProperties.style,
       scrollZoom: false,
