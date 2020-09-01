@@ -24,7 +24,9 @@ export default {
   data() {
     return {
       leftMap: null,
+      leftMapReady: false,
       rightMap: null,
+      rightMapReady: false,
       map: null,
       mapboxglCompare: null,
       popup: null,
@@ -58,6 +60,9 @@ export default {
           layer.visibility
         );
       });
+      // Check if we should emit the map ready event, in case the left map is the last to load.
+      this.leftMapReady = true;
+      this.checkForMapReady();
     });
     this.rightMap.on('load', () => {
       this.config.rightMapConfig.layers.map((layer) => {
@@ -67,17 +72,29 @@ export default {
           layer.visibility
         );
       });
+      // Check if we should emit the map ready event, in case the right map is the last to load.
+      this.rightMapReady = true;
+      this.checkForMapReady();
     });
     this.map = new this.mapboxglCompare(
       this.leftMap,
       this.rightMap,
       this.$refs.container
     );
-    // Emit a JS custom event for non-vue consumers
-    const event = new CustomEvent('map-ready', { detail: this.map });
-    document.dispatchEvent(event);
-    // Emit a Vue.js custom event
-    this.$emit('map-ready', this.map);
+    // Check for map ready now that we have created a mapbox compare object
+    this.checkForMapReady();
+  },
+  methods: {
+    checkForMapReady() {
+      // Emit the mapbox compare object - but wait until the left map, right map, and mapbox compare object are all fully loaded.
+      if (this.leftMapReady && this.rightMapReady && this.map) {
+        // Emit a JS custom event for non-vue consumers
+        const event = new CustomEvent('map-ready', { detail: this.map });
+        document.dispatchEvent(event);
+        // Emit a Vue.js custom event
+        this.$emit('map-ready', this.map);
+      }
+    },
   },
 };
 </script>

@@ -5630,12 +5630,12 @@ var ScrollyMap_component = normalizeComponent(
 )
 
 /* harmony default export */ var ScrollyMap = (ScrollyMap_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7839fb5c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/MapboxCompare.vue?vue&type=template&id=9e1c82be&
-var MapboxComparevue_type_template_id_9e1c82be_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"container"},[_c('div',{ref:"left",staticClass:"map"}),(_vm.config.leftLabel)?_c('div',{staticClass:"label--left"},[_vm._v(" "+_vm._s(_vm.config.leftLabel)+" ")]):_vm._e(),_c('div',{ref:"right",staticClass:"map"}),(_vm.config.rightLabel)?_c('div',{staticClass:"label--right"},[_vm._v(" "+_vm._s(_vm.config.rightLabel)+" ")]):_vm._e()])}
-var MapboxComparevue_type_template_id_9e1c82be_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7839fb5c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/MapboxCompare.vue?vue&type=template&id=776089c6&
+var MapboxComparevue_type_template_id_776089c6_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"container"},[_c('div',{ref:"left",staticClass:"map"}),(_vm.config.leftLabel)?_c('div',{staticClass:"label--left"},[_vm._v(" "+_vm._s(_vm.config.leftLabel)+" ")]):_vm._e(),_c('div',{ref:"right",staticClass:"map"}),(_vm.config.rightLabel)?_c('div',{staticClass:"label--right"},[_vm._v(" "+_vm._s(_vm.config.rightLabel)+" ")]):_vm._e()])}
+var MapboxComparevue_type_template_id_776089c6_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/MapboxCompare.vue?vue&type=template&id=9e1c82be&
+// CONCATENATED MODULE: ./src/components/MapboxCompare.vue?vue&type=template&id=776089c6&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.function.name.js
 var es_function_name = __webpack_require__("b0c0");
@@ -5672,7 +5672,9 @@ var mapbox_gl_compare_default = /*#__PURE__*/__webpack_require__.n(mapbox_gl_com
   data: function data() {
     return {
       leftMap: null,
+      leftMapReady: false,
       rightMap: null,
+      rightMapReady: false,
       map: null,
       mapboxglCompare: null,
       popup: null
@@ -5702,21 +5704,40 @@ var mapbox_gl_compare_default = /*#__PURE__*/__webpack_require__.n(mapbox_gl_com
     this.leftMap.on('load', function () {
       _this.config.leftMapConfig.layers.map(function (layer) {
         _this.leftMap.setLayoutProperty(layer.name, 'visibility', layer.visibility);
-      });
+      }); // Check if we should emit the map ready event, in case the left map is the last to load.
+
+
+      _this.leftMapReady = true;
+
+      _this.checkForMapReady();
     });
     this.rightMap.on('load', function () {
       _this.config.rightMapConfig.layers.map(function (layer) {
         _this.rightMap.setLayoutProperty(layer.name, 'visibility', layer.visibility);
-      });
-    });
-    this.map = new this.mapboxglCompare(this.leftMap, this.rightMap, this.$refs.container); // Emit a JS custom event for non-vue consumers
+      }); // Check if we should emit the map ready event, in case the right map is the last to load.
 
-    var event = new CustomEvent('map-ready', {
-      detail: this.map
-    });
-    document.dispatchEvent(event); // Emit a Vue.js custom event
 
-    this.$emit('map-ready', this.map);
+      _this.rightMapReady = true;
+
+      _this.checkForMapReady();
+    });
+    this.map = new this.mapboxglCompare(this.leftMap, this.rightMap, this.$refs.container); // Check for map ready now that we have created a mapbox compare object
+
+    this.checkForMapReady();
+  },
+  methods: {
+    checkForMapReady: function checkForMapReady() {
+      // Emit the mapbox compare object - but wait until the left map, right map, and mapbox compare object are all fully loaded.
+      if (this.leftMapReady && this.rightMapReady && this.map) {
+        // Emit a JS custom event for non-vue consumers
+        var event = new CustomEvent('map-ready', {
+          detail: this.map
+        });
+        document.dispatchEvent(event); // Emit a Vue.js custom event
+
+        this.$emit('map-ready', this.map);
+      }
+    }
   }
 });
 // CONCATENATED MODULE: ./src/components/MapboxCompare.vue?vue&type=script&lang=js&
@@ -5735,8 +5756,8 @@ var MapboxComparevue_type_style_index_0_lang_scss_ = __webpack_require__("0004")
 
 var MapboxCompare_component = normalizeComponent(
   components_MapboxComparevue_type_script_lang_js_,
-  MapboxComparevue_type_template_id_9e1c82be_render,
-  MapboxComparevue_type_template_id_9e1c82be_staticRenderFns,
+  MapboxComparevue_type_template_id_776089c6_render,
+  MapboxComparevue_type_template_id_776089c6_staticRenderFns,
   false,
   null,
   null,
