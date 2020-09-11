@@ -127,7 +127,7 @@ export default {
 
 .features {
   padding: 0;
-  padding-top: 34vh;
+  padding-top: 66vh;
 }
 
 .chapter {
