@@ -1,17 +1,19 @@
 <template>
   <div class="mapContainer">
     <div class="map" ref="map"></div>
-    <div class="features">
-      <div
-        v-for="(record, index) in config.chapters"
-        :id="record.id"
-        :key="record.id"
-        :class="index == 0 ? 'active step' : 'step'"
-      >
-        <div class="chapter">
-          <h3 v-if="record.title">{{ record.title }}</h3>
-          <img v-if="record.image" :src="record.image" />
-          <p v-if="record.description">{{ record.description }}</p>
+    <div class="storyContainer">
+      <div class="features">
+        <div
+          v-for="(record, index) in config.chapters"
+          :id="record.id"
+          :key="record.id"
+          :class="index == 0 ? 'active step' : 'step'"
+        >
+          <div class="chapter">
+            <h3 v-if="record.title">{{ record.title }}</h3>
+            <img v-if="record.image" :src="record.image" />
+            <p v-if="record.description">{{ record.description }}</p>
+          </div>
         </div>
       </div>
     </div>
@@ -68,7 +70,7 @@ export default {
     const scroller = scrollama();
     this.map.on('load', () => {
       scroller
-        .setup({ step: '.step', offset: 0.7, progress: true })
+        .setup({ step: '.step', offset: 0.66, progress: true })
         .onStepEnter((response) => {
           const chapter = this.config.chapters.find(
             (chap) => chap.id === response.element.id
@@ -124,13 +126,14 @@ export default {
 }
 
 .features {
-  padding: 80px 0;
+  padding: 0;
+  padding-top: 34vh;
 }
 
 .chapter {
   background-color: rgba(107, 105, 101, 0.9);
   box-sizing: border-box;
-  border-left: 2px solid #FCAF17;
+  border-left: 2px solid #fcaf17;
   color: white;
   margin-left: 80px;
   max-width: 700px;
@@ -143,10 +146,11 @@ export default {
 
 .step {
   opacity: 0;
-  padding-bottom: 50vh;
-  transition: opacity 1s ease-in-out;
+  padding-bottom: 34vh;
+  transition: opacity 0.2s ease-in;
   &.active {
     opacity: 0.9;
+    transition: opacity 1s ease-in-out;
   }
   h3 {
     margin-top: 0.5em;
