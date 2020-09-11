@@ -29,6 +29,11 @@ export default {
             image: '',
             description:
               'High-resolution satellite imagery helps you detect and visualize change clearly. Here we can see a new development taking shape.',
+            legend: [
+              { color: '#4164FB', text: 'Ecopia Building Footprints' },
+              { color: '#FCAF17', text: 'Ecopia Roads' },
+              { color: '#0E9797', text: 'Borders' },
+            ],
             location: {
               center: [-115.360741, 36.176497],
               zoom: 14.5,

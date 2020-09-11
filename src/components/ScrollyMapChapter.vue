@@ -1,32 +1,27 @@
 <template>
   <div class="chapter">
-    <h3 v-if="record.title">{{ record.title }}</h3>
-    <img v-if="record.image" :src="record.image" />
-    <p v-if="record.description">{{ record.description }}</p>
-    <button
-      :class="`hamburger hamburger--squeeze ${detailsOpen ? 'is-active' : ''}`"
-      type="button"
-      @click="detailsOpen = !detailsOpen"
-    >
-      <span class="hamburger-box">
-        <span class="hamburger-inner"></span>
-      </span>
-    </button>
+    <h3 v-if="chapter.title">{{ chapter.title }}</h3>
+    <img v-if="chapter.image" :src="chapter.image" />
+    <p v-if="chapter.description">{{ chapter.description }}</p>
+    <ScrollyMapChapterLegend
+      v-if="chapter.legend && chapter.legend.length > 0"
+      :legend="chapter.legend"
+    />
   </div>
 </template>
 
 <script>
+import ScrollyMapChapterLegend from './ScrollyMapChapterLegend';
+
 export default {
+  components: {
+    ScrollyMapChapterLegend,
+  },
   props: {
-    record: {
+    chapter: {
       type: Object,
       default: null,
     },
-  },
-  data() {
-    return {
-      detailsOpen: false,
-    };
   },
 };
 </script>

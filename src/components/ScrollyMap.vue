@@ -3,12 +3,12 @@
     <div class="map" ref="map"></div>
     <div class="features">
       <div
-        v-for="(record, index) in config.chapters"
-        :id="record.id"
-        :key="record.id"
+        v-for="(chapter, index) in config.chapters"
+        :id="chapter.id"
+        :key="chapter.id"
         :class="index == 0 ? 'active step' : 'step'"
       >
-        <ScrollyMapChapter :record="record" />
+        <ScrollyMapChapter :chapter="chapter" />
       </div>
     </div>
   </div>
