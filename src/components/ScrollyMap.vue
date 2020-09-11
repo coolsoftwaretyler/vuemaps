@@ -1,19 +1,17 @@
 <template>
   <div class="mapContainer">
     <div class="map" ref="map"></div>
-    <div class="storyContainer">
-      <div class="features">
-        <div
-          v-for="(record, index) in config.chapters"
-          :id="record.id"
-          :key="record.id"
-          :class="index == 0 ? 'active step' : 'step'"
-        >
-          <div class="chapter">
-            <h3 v-if="record.title">{{ record.title }}</h3>
-            <img v-if="record.image" :src="record.image" />
-            <p v-if="record.description">{{ record.description }}</p>
-          </div>
+    <div class="features">
+      <div
+        v-for="(record, index) in config.chapters"
+        :id="record.id"
+        :key="record.id"
+        :class="index == 0 ? 'active step' : 'step'"
+      >
+        <div class="chapter">
+          <h3 v-if="record.title">{{ record.title }}</h3>
+          <img v-if="record.image" :src="record.image" />
+          <p v-if="record.description">{{ record.description }}</p>
         </div>
       </div>
     </div>
