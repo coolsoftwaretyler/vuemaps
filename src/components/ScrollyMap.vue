@@ -128,8 +128,9 @@ export default {
 }
 
 .chapter {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(107, 105, 101, 0.9);
   box-sizing: border-box;
+  border-left: 2px solid #FCAF17;
   color: white;
   margin-left: 80px;
   max-width: 700px;
