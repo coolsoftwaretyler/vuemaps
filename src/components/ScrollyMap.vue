@@ -8,11 +8,7 @@
         :key="record.id"
         :class="index == 0 ? 'active step' : 'step'"
       >
-        <div class="chapter">
-          <h3 v-if="record.title">{{ record.title }}</h3>
-          <img v-if="record.image" :src="record.image" />
-          <p v-if="record.description">{{ record.description }}</p>
-        </div>
+        <ScrollyMapChapter :record="record" />
       </div>
     </div>
   </div>
@@ -21,7 +17,12 @@
 <script>
 import 'intersection-observer';
 import scrollama from 'scrollama';
+import ScrollyMapChapter from './ScrollyMapChapter';
+
 export default {
+  components: {
+    ScrollyMapChapter,
+  },
   props: {
     config: {
       type: Object,
