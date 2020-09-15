@@ -54,6 +54,7 @@ export default {
             image: '',
             description:
               'Advanced analytics offer persistent change monitoring (PCM), helping mapping specialists verify driver data and minimize ghost roads.',
+            markup: '<ul><li>one</li></ul>',
             location: {
               center: [-115.360741, 36.176497],
               zoom: 14.5,

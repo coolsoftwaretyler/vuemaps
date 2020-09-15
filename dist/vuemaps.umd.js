@@ -5498,12 +5498,12 @@ var intersection_observer = __webpack_require__("5abe");
 var scrollama = __webpack_require__("d11d");
 var scrollama_default = /*#__PURE__*/__webpack_require__.n(scrollama);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6023d69e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/ScrollyMapChapter.vue?vue&type=template&id=30e3cc22&
-var ScrollyMapChaptervue_type_template_id_30e3cc22_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"chapter"},[(_vm.chapter.title)?_c('h3',[_vm._v(_vm._s(_vm.chapter.title))]):_vm._e(),(_vm.chapter.image)?_c('img',{attrs:{"src":_vm.chapter.image}}):_vm._e(),(_vm.chapter.description)?_c('p',[_vm._v(_vm._s(_vm.chapter.description))]):_vm._e(),(_vm.chapter.legend && _vm.chapter.legend.length > 0)?_c('ScrollyMapChapterLegend',{attrs:{"legend":_vm.chapter.legend}}):_vm._e()],1)}
-var ScrollyMapChaptervue_type_template_id_30e3cc22_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6023d69e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/ScrollyMapChapter.vue?vue&type=template&id=49419d42&
+var ScrollyMapChaptervue_type_template_id_49419d42_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"chapter"},[(_vm.chapter.title)?_c('h3',[_vm._v(_vm._s(_vm.chapter.title))]):_vm._e(),(_vm.chapter.image)?_c('img',{attrs:{"src":_vm.chapter.image}}):_vm._e(),(_vm.chapter.description)?_c('p',[_vm._v(_vm._s(_vm.chapter.description))]):_vm._e(),(_vm.chapter.markup)?_c('div',{domProps:{"innerHTML":_vm._s(_vm.chapter.markup)}}):_vm._e(),(_vm.chapter.legend && _vm.chapter.legend.length > 0)?_c('ScrollyMapChapterLegend',{attrs:{"legend":_vm.chapter.legend}}):_vm._e()],1)}
+var ScrollyMapChaptervue_type_template_id_49419d42_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/ScrollyMapChapter.vue?vue&type=template&id=30e3cc22&
+// CONCATENATED MODULE: ./src/components/ScrollyMapChapter.vue?vue&type=template&id=49419d42&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6023d69e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/ScrollyMapChapterLegend.vue?vue&type=template&id=ce925b38&scoped=true&
 var ScrollyMapChapterLegendvue_type_template_id_ce925b38_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"chapterLegend"},[_c('button',{class:("hamburger hamburger--squeeze " + (_vm.active ? 'is-active' : '')),attrs:{"type":"button"},on:{"click":function($event){_vm.active = !_vm.active}}},[_vm._m(0)]),_c('slide-up-down',{attrs:{"active":_vm.active,"duration":150}},_vm._l((_vm.legend),function(item){return _c('p',{key:item.text},[_c('span',{style:(("background-color: " + (item.color) + ";"))}),_vm._v(" "+_vm._s(item.text)+" ")])}),0)],1)}
@@ -5593,6 +5593,7 @@ var ScrollyMapChapterLegend_component = normalizeComponent(
 //
 //
 //
+//
 
 /* harmony default export */ var ScrollyMapChaptervue_type_script_lang_js_ = ({
   components: {
@@ -5617,8 +5618,8 @@ var ScrollyMapChapterLegend_component = normalizeComponent(
 
 var ScrollyMapChapter_component = normalizeComponent(
   components_ScrollyMapChaptervue_type_script_lang_js_,
-  ScrollyMapChaptervue_type_template_id_30e3cc22_render,
-  ScrollyMapChaptervue_type_template_id_30e3cc22_staticRenderFns,
+  ScrollyMapChaptervue_type_template_id_49419d42_render,
+  ScrollyMapChaptervue_type_template_id_49419d42_staticRenderFns,
   false,
   null,
   null,
