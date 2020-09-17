@@ -1,16 +1,18 @@
 <template>
   <div class="chapterLegend">
     <button
-      :class="`hamburger hamburger--squeeze ${active ? 'is-active' : ''}`"
+      :class="`hamburger hamburger--squeeze ${
+        active || legend.legendActive ? 'is-active' : ''
+      }`"
       type="button"
-      @click="active = !active"
+      @click="handleLegendToggle"
     >
       <span class="hamburger-box">
         <span class="hamburger-inner"></span>
       </span>
     </button>
-    <slide-up-down :active="active" :duration="150">
-      <p v-for="item in legend" :key="item.text">
+    <slide-up-down :active="active || legend.legendActive" :duration="150">
+      <p v-for="item in legend.items" :key="item.text">
         <span :style="`background-color: ${item.color};`"></span>
         {{ item.text }}
       </p>
@@ -26,7 +28,7 @@ export default {
   },
   props: {
     legend: {
-      type: Array,
+      type: Object,
       default: null,
     },
   },
@@ -34,6 +36,15 @@ export default {
     return {
       active: false,
     };
+  },
+  methods: {
+    handleLegendToggle() {
+      if (this.legend.sharedLegendState) {
+        this.$emit('legendtoggle');
+      } else {
+        this.active = !this.active;
+      }
+    },
   },
 };
 </script>

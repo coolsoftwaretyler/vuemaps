@@ -8,7 +8,12 @@
         :key="chapter.id"
         :class="index == 0 ? 'active step' : 'step'"
       >
-        <ScrollyMapChapter :chapter="chapter" />
+        <ScrollyMapChapter
+          :chapter="chapter"
+          :legendActive="legendActive"
+          :sharedLegendState="sharedLegendState"
+          v-on:legendtoggle="legendActive = !legendActive"
+        />
       </div>
     </div>
   </div>
@@ -28,11 +33,13 @@ export default {
       type: Object,
       default: null,
     },
+    sharedLegendState: {
+      type: Boolean,
+      default: false,
+    },
   },
   data() {
     return {
-      map: null,
-      mapboxgl: null,
       layerTypes: {
         fill: ['fill-opacity'],
         line: ['line-opacity'],
@@ -41,6 +48,9 @@ export default {
         raster: ['raster-opacity'],
         'fill-extrusion': ['fill-extrusion-opacity'],
       },
+      legendActive: false,
+      map: null,
+      mapboxgl: null,
     };
   },
   mounted() {
@@ -110,6 +120,9 @@ export default {
       paintProps.forEach((prop) => {
         this.map.setPaintProperty(layer.layer, prop, layer.opacity);
       });
+    },
+    handleLegendToggle() {
+      console.log('Legend toggled');
     },
   },
 };

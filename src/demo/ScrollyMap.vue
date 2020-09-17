@@ -1,5 +1,5 @@
 <template>
-  <ScrollyMap :config="mapConfig" />
+  <ScrollyMap :config="mapConfig" :sharedLegendState="true" />
 </template>
 
 <script>
@@ -88,6 +88,11 @@ export default {
             image: '',
             description:
               'Access to PCM data enables you to identify areas that may need a new image refresh for detailed analysis and map updates.',
+            legend: [
+              { color: '#4164FB', text: 'Ecopia Building Footprints' },
+              { color: '#FCAF17', text: 'Ecopia Roads' },
+              { color: '#0E9797', text: 'Borders' },
+            ],
             location: {
               center: [-115.360741, 36.176497],
               zoom: 14.5,

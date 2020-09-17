@@ -6,7 +6,8 @@
     <div v-if="chapter.markup" v-html="chapter.markup"></div>
     <ScrollyMapChapterLegend
       v-if="chapter.legend && chapter.legend.length > 0"
-      :legend="chapter.legend"
+      :legend="{ items: chapter.legend, legendActive, sharedLegendState }"
+      v-on:legendtoggle="$emit('legendtoggle')"
     />
   </div>
 </template>
@@ -22,6 +23,14 @@ export default {
     chapter: {
       type: Object,
       default: null,
+    },
+    legendActive: {
+      type: Boolean,
+      default: false
+    },
+    sharedLegendState: {
+      type: Boolean,
+      default: false,
     },
   },
 };
