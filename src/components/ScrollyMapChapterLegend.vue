@@ -63,6 +63,7 @@ export default {
     box-sizing: border-box;
     left: -2px;
     opacity: 0;
+    padding-bottom: 10px;
     padding-left: 20px;
     position: absolute;
     transform: translateY(0%);
