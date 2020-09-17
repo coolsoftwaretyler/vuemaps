@@ -11,21 +11,17 @@
         <span class="hamburger-inner"></span>
       </span>
     </button>
-    <slide-up-down :active="active || legend.legendActive" :duration="150">
+    <aside :class="active || legend.legendActive ? 'active' : ''">
       <p v-for="item in legend.items" :key="item.text">
         <span :style="`background-color: ${item.color};`"></span>
         {{ item.text }}
       </p>
-    </slide-up-down>
+    </aside>
   </div>
 </template>
 
 <script>
-import SlideUpDown from 'vue-slide-up-down';
 export default {
-  components: {
-    SlideUpDown,
-  },
   props: {
     legend: {
       type: Object,
@@ -56,6 +52,27 @@ export default {
   justify-content: flex-start;
   .hamburger {
     align-self: flex-end;
+    position: relative;
+    z-index: 2;
+  }
+
+  aside {
+    background-color: rgba(107, 105, 101, 0.9);
+    border-left: 2px solid #fcaf17;
+    bottom: 0;
+    box-sizing: border-box;
+    left: -2px;
+    opacity: 0;
+    padding-left: 20px;
+    position: absolute;
+    transform: translateY(0%);
+    transition: all 0.15s ease;
+    width: calc(100% + 2px);
+    z-index: 1;
+    &.active {
+      opacity: 1;
+      transform: translateY(100%);
+    }
   }
   p {
     font-size: 12px;

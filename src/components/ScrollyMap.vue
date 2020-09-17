@@ -150,6 +150,7 @@ export default {
   margin-left: 80px;
   max-width: 700px;
   padding: 10px 20px;
+  position: relative;
   width: 100%;
   @media (max-width: 860px) {
     margin: 0 auto;
