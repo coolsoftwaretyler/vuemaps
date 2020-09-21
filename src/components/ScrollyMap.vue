@@ -69,7 +69,7 @@ export default {
       ...this.config.chapters[0].location,
       container: this.$refs.map,
       style: this.config.mapProperties.style,
-      scrollZoom: false,
+      interactive: false,
       transformRequest,
     });
     const marker = new this.mapboxgl.Marker();

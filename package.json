@@ -1,7 +1,7 @@
 {
   "name": "maxar-vue-maps",
   "description": "Vue.js library for interactive map APIs",
-  "version": "0.1.21",
+  "version": "0.1.22",
   "main": "./dist/vuemaps.common.js",
   "files": [
     "dist/*"
