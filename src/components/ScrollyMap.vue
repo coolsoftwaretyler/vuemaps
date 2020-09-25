@@ -31,7 +31,7 @@ export default {
   props: {
     animationTiming: {
       type: Number,
-      default: 1000,
+      default: 100,
     },
     config: {
       type: Object,
