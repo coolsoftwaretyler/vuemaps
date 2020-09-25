@@ -33,9 +33,13 @@ export default {
       type: Object,
       default: null,
     },
+    debug: {
+      type: Boolean,
+      default: false
+    },
     sharedLegendState: {
       type: Boolean,
-      default: false,
+      default: true,
     },
   },
   data() {
@@ -48,7 +52,7 @@ export default {
         raster: ['raster-opacity'],
         'fill-extrusion': ['fill-extrusion-opacity'],
       },
-      legendActive: false,
+      legendActive: true,
       map: null,
       mapboxgl: null,
     };
@@ -79,7 +83,7 @@ export default {
     const scroller = scrollama();
     this.map.on('load', () => {
       scroller
-        .setup({ step: '.step', offset: 0.66, progress: true })
+        .setup({ step: '.step', offset: 0.66, progress: true, debug: this.debug })
         .onStepEnter((response) => {
           const chapter = this.config.chapters.find(
             (chap) => chap.id === response.element.id
@@ -120,9 +124,6 @@ export default {
       paintProps.forEach((prop) => {
         this.map.setPaintProperty(layer.layer, prop, layer.opacity);
       });
-    },
-    handleLegendToggle() {
-      console.log('Legend toggled');
     },
   },
 };

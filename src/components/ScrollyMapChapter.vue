@@ -26,7 +26,7 @@ export default {
     },
     legendActive: {
       type: Boolean,
-      default: false,
+      default: true,
     },
     sharedLegendState: {
       type: Boolean,

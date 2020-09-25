@@ -1,5 +1,5 @@
 <template>
-  <ScrollyMap :config="mapConfig" :sharedLegendState="true" />
+  <ScrollyMap :config="mapConfig" :debug="false" :sharedLegendState="true" />
 </template>
 
 <script>

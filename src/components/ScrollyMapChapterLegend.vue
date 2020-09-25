@@ -1,15 +1,7 @@
 <template>
   <div class="chapterLegend">
-    <button
-      :class="`hamburger hamburger--squeeze ${
-        active || legend.legendActive ? 'is-active' : ''
-      }`"
-      type="button"
-      @click="handleLegendToggle"
-    >
-      <span class="hamburger-box">
-        <span class="hamburger-inner"></span>
-      </span>
+    <button aria-label="Toggle legend" @click="handleLegendToggle">
+      <Arrow :direction="active || legend.legendActive ? 'down' : 'up'" />
     </button>
     <aside :class="active || legend.legendActive ? 'active' : ''">
       <p v-for="item in legend.items" :key="item.text">
@@ -21,12 +13,17 @@
 </template>
 
 <script>
+import Arrow from './Arrow.vue';
+
 export default {
   props: {
     legend: {
       type: Object,
       default: null,
     },
+  },
+  components: {
+    Arrow,
   },
   data() {
     return {
@@ -50,10 +47,29 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  .hamburger {
+  button {
     align-self: flex-end;
+    border: none;
+    height: 24px;
+    padding: 0;
     position: relative;
+    width: 24px;
     z-index: 2;
+    svg {
+      height: 100%;
+      stroke: #fcaf17;
+      transform-origin: left;
+      transition: stroke 0.3s ease-in-out;
+      width: auto;
+    }
+    &:hover,
+    &:focus,
+    &:active {
+      background: transparent;
+      svg {
+        stroke: white;
+      }
+    }
   }
 
   aside {

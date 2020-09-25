@@ -10,7 +10,6 @@ module.exports = {
           @import "@/scss/_buttons";
           @import "@/scss/_links";
           @import "@/scss/_mapNav";
-          @import "@/scss/_hamburger";
           `,
       },
     },
