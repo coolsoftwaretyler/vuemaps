@@ -1,5 +1,10 @@
 <template>
-  <ScrollyMap :config="mapConfig" :debug="false" :sharedLegendState="true" />
+  <ScrollyMap
+    :animationTiming="1000"
+    :config="mapConfig"
+    :debug="false"
+    :sharedLegendState="true"
+  />
 </template>
 
 <script>

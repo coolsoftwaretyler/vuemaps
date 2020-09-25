@@ -29,13 +29,17 @@ export default {
     ScrollyMapChapter,
   },
   props: {
+    animationTiming: {
+      type: Number,
+      default: 1000,
+    },
     config: {
       type: Object,
       default: null,
     },
     debug: {
       type: Boolean,
-      default: false
+      default: false,
     },
     sharedLegendState: {
       type: Boolean,
@@ -83,19 +87,26 @@ export default {
     const scroller = scrollama();
     this.map.on('load', () => {
       scroller
-        .setup({ step: '.step', offset: 0.66, progress: true, debug: this.debug })
+        .setup({
+          step: '.step',
+          offset: 0.66,
+          progress: true,
+          debug: this.debug,
+        })
         .onStepEnter((response) => {
           const chapter = this.config.chapters.find(
             (chap) => chap.id === response.element.id
           );
           response.element.classList.add('active');
-          this.map.flyTo(chapter.location);
-          if (this.config.showMarkers) {
-            marker.setLngLat(chapter.location.center);
-          }
-          if (chapter.onChapterEnter.length > 0) {
-            chapter.onChapterEnter.forEach(this.setLayerOpacity);
-          }
+          setTimeout(() => {
+            this.map.flyTo(chapter.location);
+            if (this.config.showMarkers) {
+              marker.setLngLat(chapter.location.center);
+            }
+            if (chapter.onChapterEnter.length > 0) {
+              chapter.onChapterEnter.forEach(this.setLayerOpacity);
+            }
+          }, this.animationTiming);
         })
         .onStepExit((response) => {
           const chapter = this.config.chapters.find(
