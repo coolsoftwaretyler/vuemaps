@@ -53,7 +53,7 @@ export default {
 
 <style lang="scss">
 .toggles {
-  background: rgba(0, 0, 0, 0.8);
+  background-color: rgba(107, 105, 101, 0.9);
   box-sizing: border-box;
   padding: 1em;
   position: absolute;

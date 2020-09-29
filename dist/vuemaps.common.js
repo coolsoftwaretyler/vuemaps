@@ -5197,12 +5197,12 @@ function _objectSpread2(target) {
 
   return target;
 }
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6cbe51aa-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/LayerToggles.vue?vue&type=template&id=5c424536&
-var LayerTogglesvue_type_template_id_5c424536_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"toggles"},_vm._l((_vm.toggles),function(state,index){return _c('div',{key:state.name,staticClass:"toggleItem"},[_c('label',{staticClass:"label-container"},[_vm._v(_vm._s(state.label)+" "),_c('input',{attrs:{"id":state.name,"name":"layer","type":"checkbox","checked":""},domProps:{"value":state.label},on:{"click":function($event){return _vm.handleToggle(index, $event)}}}),_c('span',{staticClass:"checkmark"})]),_c('br')])}),0)}
-var LayerTogglesvue_type_template_id_5c424536_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6cbe51aa-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/LayerToggles.vue?vue&type=template&id=fd762ac6&
+var LayerTogglesvue_type_template_id_fd762ac6_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"toggles"},_vm._l((_vm.toggles),function(state,index){return _c('div',{key:state.name,staticClass:"toggleItem"},[_c('label',{staticClass:"label-container"},[_vm._v(_vm._s(state.label)+" "),_c('input',{attrs:{"id":state.name,"name":"layer","type":"checkbox","checked":""},domProps:{"value":state.label},on:{"click":function($event){return _vm.handleToggle(index, $event)}}}),_c('span',{staticClass:"checkmark"})]),_c('br')])}),0)}
+var LayerTogglesvue_type_template_id_fd762ac6_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/LayerToggles.vue?vue&type=template&id=5c424536&
+// CONCATENATED MODULE: ./src/components/LayerToggles.vue?vue&type=template&id=fd762ac6&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/LayerToggles.vue?vue&type=script&lang=js&
 
@@ -5375,8 +5375,8 @@ function normalizeComponent (
 
 var component = normalizeComponent(
   components_LayerTogglesvue_type_script_lang_js_,
-  LayerTogglesvue_type_template_id_5c424536_render,
-  LayerTogglesvue_type_template_id_5c424536_staticRenderFns,
+  LayerTogglesvue_type_template_id_fd762ac6_render,
+  LayerTogglesvue_type_template_id_fd762ac6_staticRenderFns,
   false,
   null,
   null,

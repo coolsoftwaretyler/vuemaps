@@ -24,7 +24,7 @@ export default {
           maxZoom: 19,
           minZoom: 3,
           showMarkers: false,
-        },  
+        },
         chapters: [
           {
             id: 'glacier-np',
