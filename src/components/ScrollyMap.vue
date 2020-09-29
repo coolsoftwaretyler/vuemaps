@@ -74,9 +74,9 @@ export default {
 
     this.mapboxgl = this.$mapboxgl || window.mapboxgl;
     this.map = new this.mapboxgl.Map({
+      ...this.config.mapProperties,
       ...this.config.chapters[0].location,
       container: this.$refs.map,
-      style: this.config.mapProperties.style,
       interactive: false,
       transformRequest,
     });

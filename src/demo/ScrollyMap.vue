@@ -21,12 +21,10 @@ export default {
         subtitle: 'For scrolling',
         mapProperties: {
           style: 'mapbox://styles/dginteractive/ckara0drq1k1h1iqpds78j62m',
-          zoom: 4,
-          center: [54.0716196, 32.80577492],
           maxZoom: 19,
           minZoom: 3,
           showMarkers: false,
-        },
+        },  
         chapters: [
           {
             id: 'glacier-np',
