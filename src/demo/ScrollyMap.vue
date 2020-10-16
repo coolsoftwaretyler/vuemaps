@@ -4,6 +4,8 @@
     :config="mapConfig"
     :debug="false"
     :sharedLegendState="true"
+    v-on:step-enter="logStepEnter"
+    v-on:step-exit="logStepExit"
   />
 </template>
 
@@ -13,6 +15,14 @@ import ScrollyMap from '../components/ScrollyMap';
 export default {
   components: {
     ScrollyMap,
+  },
+  methods: {
+    logStepEnter(event) {
+      console.log(event);
+    },
+    logStepExit(event) {
+      console.log(event);
+    },
   },
   data() {
     return {

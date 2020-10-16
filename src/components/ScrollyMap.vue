@@ -107,6 +107,13 @@ export default {
               chapter.onChapterEnter.forEach(this.setLayerOpacity);
             }
           }, this.animationTiming);
+          // Emit a JS custom event for non-vue consumers
+          const event = new CustomEvent('step-enter', {
+            detail: response.element,
+          });
+          document.dispatchEvent(event);
+          // Emit a Vue.js custom event
+          this.$emit('step-enter', response.element);
         })
         .onStepExit((response) => {
           const chapter = this.config.chapters.find(
@@ -116,12 +123,14 @@ export default {
           if (chapter.onChapterExit.length > 0) {
             chapter.onChapterExit.forEach(this.setLayerOpacity);
           }
+          // Emit a JS custom event for non-vue consumers
+          const event = new CustomEvent('step-exit', {
+            detail: response.element,
+          });
+          document.dispatchEvent(event);
+          // Emit a Vue.js custom event
+          this.$emit('step-exit', response.element);
         });
-      // Emit a JS custom event for non-vue consumers
-      const event = new CustomEvent('map-ready', { detail: this.map });
-      document.dispatchEvent(event);
-      // Emit a Vue.js custom event
-      this.$emit('map-ready', this.map);
     });
     window.addEventListener('resize', scroller.resize);
   },
