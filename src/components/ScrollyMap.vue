@@ -131,6 +131,11 @@ export default {
           // Emit a Vue.js custom event
           this.$emit('step-exit', response.element);
         });
+      // Emit a JS custom event for non-vue consumers
+      const event = new CustomEvent('map-ready', { detail: this.map });
+      document.dispatchEvent(event);
+      // Emit a Vue.js custom event
+      this.$emit('map-ready', this.map);
     });
     window.addEventListener('resize', scroller.resize);
   },
