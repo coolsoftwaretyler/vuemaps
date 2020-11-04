@@ -5,7 +5,10 @@
     </button>
     <aside :class="active || legend.legendActive ? 'active' : ''">
       <p v-for="item in legend.items" :key="item.text">
-        <span :style="`background-color: ${item.color};`"></span>
+        <span
+          :class="item.hollow ? 'hollow' : ''"
+          :style="`background-color: ${item.color}; border: 2px solid ${item.color}`"
+        ></span>
         {{ item.text }}
       </p>
     </aside>
@@ -95,11 +98,15 @@ export default {
     font-size: 12px;
     margin-bottom: 0;
     span {
+      box-sizing: border-box;
       display: inline-block;
       height: 16px;
       margin-bottom: -3px;
       margin-right: 0.5em;
       width: 16px;
+      &.hollow {
+        background-color: transparent !important;
+      }
     }
   }
 }
