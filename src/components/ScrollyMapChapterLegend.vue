@@ -11,7 +11,11 @@
         ></span>
         {{ item.text }}
       </p>
-      <img v-if="legend.imageUrl" :src="legend.imageUrl" :alt="legend.imageAltText"/>
+      <img
+        v-if="legend.imageUrl"
+        :src="legend.imageUrl"
+        :alt="legend.imageAltText"
+      />
     </aside>
   </div>
 </template>
