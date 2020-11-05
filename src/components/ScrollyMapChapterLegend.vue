@@ -11,6 +11,11 @@
         ></span>
         {{ item.text }}
       </p>
+      <img
+        v-if="legend.imageUrl"
+        :src="legend.imageUrl"
+        :alt="legend.imageAltText"
+      />
     </aside>
   </div>
 </template>
@@ -82,8 +87,7 @@ export default {
     box-sizing: border-box;
     left: -2px;
     opacity: 0;
-    padding-bottom: 10px;
-    padding-left: 20px;
+    padding: 10px 20px;
     position: absolute;
     transform: translateY(0%);
     transition: all 0.15s ease;
@@ -108,6 +112,10 @@ export default {
         background-color: transparent !important;
       }
     }
+  }
+  img {
+    margin-top: 10px;
+    width: 100%;
   }
 }
 </style>

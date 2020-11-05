@@ -6,7 +6,13 @@
     <div v-if="chapter.markup" v-html="chapter.markup"></div>
     <ScrollyMapChapterLegend
       v-if="chapter.legend && chapter.legend.length > 0"
-      :legend="{ items: chapter.legend, legendActive, sharedLegendState }"
+      :legend="{
+        imageAltText: chapter.legendImageAltText,
+        imageUrl: chapter.legendImageUrl,
+        items: chapter.legend,
+        legendActive,
+        sharedLegendState,
+      }"
       v-on:legendtoggle="$emit('legendtoggle')"
     />
   </div>
