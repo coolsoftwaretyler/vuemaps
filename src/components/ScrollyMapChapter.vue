@@ -7,6 +7,7 @@
     <ScrollyMapChapterLegend
       v-if="chapter.legend && chapter.legend.length > 0"
       :legend="{
+        imageAltText: chapter.legendImageAltText,
         imageUrl: chapter.legendImageUrl,
         items: chapter.legend,
         legendActive,
