@@ -51,6 +51,7 @@ export default {
               { color: '#FCAF17', text: 'Ecopia Roads' },
               { color: '#0E9797', text: 'Borders' },
             ],
+            legendImageUrl: '/img/ramp4legend.png',
             location: {
               center: [-115.360741, 36.176497],
               zoom: 14.5,
